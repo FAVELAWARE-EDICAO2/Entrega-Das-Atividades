@@ -1,0 +1,397 @@
+<!-- Formulário variados com tipos de cursores -->
+<h1>Formulario<<!-- Este é um comentário HTML. Pode ser útil para documentar seu código -->
+    <!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HTML Introdução</title>
+        <style>
+          body {
+            background-color: rgb(216, 208, 208); /* Cor de fundo da página */
+          }
+          
+          .imagem {
+            width: 300px; /* Largura da imagem */
+        }
+        
+        .section-one,
+        .section-two {
+          box-sizing: border-box; 
+        }
+        
+        .tabela th,
+        td {
+          border: 3px solid red;
+          border-spacing: 0px; /* Estilo da tabela */
+        }
+    
+        .tabela tfoot {
+          background-color: rgb(141, 141, 141); /* Cor de fundo do rodapé da tabela */
+        }
+        </style>
+    </head>
+    
+    <body>
+      <!--Descrição do site-->
+      <meta name="description" content="Descrição do seu site aqui">
+      <!--Palavras chave -->
+      <meta name="keywords" content="palavra-chave1, palavra-chave2, palavra-chave3">
+      <!--Icone da página -->
+      <link rel="icon" href="caminho/para/o/seu/favicon.ico" type="image/x-icon">
+      <!--Caminho para css -->
+      <link rel="stylesheet" href="caminho/para/o/seu/arquivo.css">
+      <!--Caminho para jS -->
+      <script src="caminho/para/o/seu/arquivo.js"></script>
+      <!-- Seção de cabeçalho -->
+      <article>
+        <h2>HEADER</h2>
+        <section id="">
+          <header>
+            <h2>HTML Introdução</h2>
+            <ul>
+              <!-- Lista de links -->
+              <li><a href="">teste</a></li>
+              <li><a href="">teste</a></li>
+              <li><a href="">teste</a></li>
+              <li><a href="">teste</a></li>
+            </ul>
+          </header>
+        </section>
+      </article>
+    
+      <!-- Barra lateral de navegação -->
+      <aside>
+        <nav class="navbar navbar-">
+          <ul>
+            <li><a href="">teste</a></li>
+            <li><a href="">teste</a></li>
+            <li><a href="">teste</a></li>
+            <li><a href="">teste</a></li>
+          </ul>
+        </nav>
+      </aside>
+    
+      <!-- Títulos e parágrafos -->
+      <h1 id="heading" class="heading red-border" style="background-color:red ">Teste</h1>
+      <h2>teste</h2>
+      <h3>teste</h3>
+      <h4>teste</h4>
+      <h5>teste</h5>
+      <h6>teste</h6>
+    
+      <!-- Tags HTML -->
+      <p id="agradecimento">
+        Lorem ipsum dolor<b>Lorem, ipsum dolor.</b>sit,<i>lorem ipsum dolor sit amet</i> <em>Lorem,
+          ipsum dolor sit amet </em> <s>Lorem ipsum dolor sit amet.</s> <ins>Lorem ipsum dolor sit amet.</ins>
+        <small>Lorem, ipsum dolor.</small> 2<sup>2</sup> H<sub>2</sub> ipsum dolor sit amet<strong>Lorem ipsum
+          dolor</strong> <q>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</q>
+      </p><p>Este é um <mark>texto destacado</mark>.</p>
+    <p><cite>Fonte: Nome do Autor</cite></p>
+    <code>console.log('Hello, world!');</code>
+    <p>Pressione <kbd>Ctrl</kbd> + <kbd>C</kbd> para copiar.</p>
+    <meter value="7" min="0" max="10">7 de 10</meter>
+    <br>
+    <svg width="100" height="100">
+      <circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="red" />
+    </svg>
+    <br>
+    <dialog open>Este é um diálogo.</dialog>
+    
+    <br>
+      <!-- Link -->
+      <a href="#" target="_blank">link para site</a>
+      <br>
+    
+      <!-- Imagem -->
+      <img src="https://lh4.googleusercontent.com/RDsiufN3WQVI03HKg6B9m8Ur7Z9xjSX2X9Zxq3CrlJrMzI4ujSXLHTo6xIuHy6Ln0k_hWzPvBMLtV55YRNkOsU5gPGDkLgqujCzocq7MQcXtWaf6-14RmhSyX2WRadIRdw=w1280" alt="teste" class="imagem">
+      <br>
+    
+      <!-- Citação -->
+      <blockquote>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi ipsum nobis repudiandae quas iure alias
+        explicabo dignissimos perferendis molestias error.<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Aspernatur, nobis.</p>
+      </blockquote>
+    
+      <!-- Script -->
+      <pre><code class="">
+          function rand({ min = 0, max = 1000 }) {
+          const valor = Math.random() * (max - min) + min
+          return Math.floor(valor)
+          }
+       </code></pre>
+    
+      <!-- Elementos diversos -->
+      <span class="link-blue" style="text-decoration: underline">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          In, dolore.</span>
+      <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti, numquam.</div>
+      <!--Div Cor  e Tamanho-->
+      <hr>
+      <div style="width:100px; height: 100px; background-color:brown;">
+          <div style="width:50px; height: 50px; background-color:rgb(5, 255, 25);float: left;"></div>
+          <div style="width:50px; height: 50px; background-color:rgb(23, 8, 243);float: left;"></div>
+          <div style="width:50px; height: 50px; background-color:rgb(243, 8, 184);float: left;"></div>
+      </div>
+      <hr>
+      <!-- Modelos de caixa -->
+      <h1>Box model</h1>
+      <div>
+          <section class="section-one" style=" width: 300px; 
+          height: 200px; 
+          background-color: rgb(238, 6, 6); 
+          border-bottom-width: 10px;
+          border-bottom-color: red ;
+          border-bottom-style: solid;
+          padding: 0 0 100px 0;
+          background-image: url(https://lh4.googleusercontent.com/RDsiufN3WQVI03HKg6B9m8Ur7Z9xjSX2X9Zxq3CrlJrMzI4ujSXLHTo6xIuHy6Ln0k_hWzPvBMLtV55YRNkOsU5gPGDkLgqujCzocq7MQcXtWaf6-14RmhSyX2WRadIRdw=w1280);
+          background-size: cover ;
+          background-position: center center;
+          color: rgb(0,0,0);
+          margin: 20px;
+          ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae a, laborum in tempora consequatur quibusdam!
+          </section>
+          <section class="section-two" style=" width: 300px; 
+          height: 200px; 
+          background-color: rgb(55, 0, 253); 
+          border: 1px; 
+          padding: 15px;
+          border: 10px solid black; 
+          ">2</section>
+    
+          <!-- Lista HTML -->
+          <hr>
+          <h1>Lista HTML</h1>
+    
+          <nav style="height: 50px; 
+          background-color: rgb(135, 205, 238); 
+          display:flex; 
+          justify-content: center; 
+          align-self: center;
+          text-transform: uppercase;
+          ">
+              <ul style="
+              color: white; 
+              text-decoration: none; 
+              font-family: Helvetica;
+              display: flex;
+              list-style-type: none;
+              padding: 5px;
+              
+    
+              ">
+                  <li><a href="#" style="display:block; padding: 10px; ">Home</a> </li>
+                  <li><a href="#"style="display:block; padding: 10px;">Sobre</a> </li>
+                  <li><a href="#"style="display:block; padding: 10px;">Produtos </a> </li>
+              </ul>
+          </nav>
+          <ul>
+              <li>item 1</li>
+              <li>item 2</li>
+              <li>item 3</li>
+          </ul>
+    
+          <!-- Lista ordenada -->
+          <ol type="I" start="2">
+              <li>item 1</li>
+              <li>item 2</li>
+              <li>item 3</li>
+          </ol>
+    
+          <!-- Lista de definição -->
+          <dl>
+              <dt>Café </dt>
+              <dd> bebida | quente </dd>
+              <dd> bebida | quente </dd>
+    
+              <dt>chá </dt>
+              <dd> bebida | quente </dd>
+              <dd> bebida | quente </dd>
+    
+          </dl>
+      </div>
+          <!-- Tabelas -->
+          <hr>
+          <h1>Tabelas</h1>
+    <table class="tabela">
+      <caption> descrição da tabela</caption>
+      <thead class="head-tabela">
+          <tr class="tabela-tr">
+              <th> Titulo 1</th>
+              <th> Titulo 2</th>
+              <th> Titulo 3</th>
+          </tr>
+      </thead>
+      <tbody>
+          <tr>
+              <td colspan="2" > Corpo 1</td>
+              <td> Corpo 2</td>
+          </tr>
+          <tr>
+              <td> Corpo 1</td>
+              <td> Corpo 2</td>
+              <td rowspan="2"> Corpo 3</td>
+          </tr>
+          <tr>
+              <td> Corpo 1</td>
+              <td> Corpo 2</td>
+          </tr>
+      </tbody>
+      <tfoot>
+          <tr>
+              <td> Corpo 1</td>
+              <td> Corpo 2</td>
+              <td> Corpo 3</td>
+          </tr>
+      </tfoot>
+    
+    
+    </table>
+    <hr>
+    <!-- Expansivo -->
+    <details>
+      <summary>Clique para ver mais</summary>
+      <p>Conteúdo adicional aqui</p>
+    </details>/h1>
+    <form action="#" method="get" target="_blank" autocomplete="off">
+      <section>
+          <h1></h1>
+          <p></p>
+          <fieldset>
+              <legend>descricao</legend>
+              <p> <label for="" style="cursor:wait;">
+                      Nome
+    
+                      <input type="text" id="" name="" placeholder="Nome">
+                  </label>
+              </p>
+              <!-- Inputs diversos -->
+              <p> <label for="dev" style="cursor:grab;">
+                      Você é desenvolvedor?
+    
+                      <input type="text" id="dev" name="dev" placeholder="Sou desenvolvedor">
+                  </label>
+              </p>
+              <!-- Data -->
+              <p> <label for="date" style="cursor:not-allowed;">
+                      data
+                      <input type="date" id="datetime" name="datetime" placeholder="Sou desenvolvedor"
+                          value="2022-08-17">
+                  </label>
+              </p>
+              <!-- Data e Hora -->
+              <p> <label for="datetime" style="cursor:zoom-in;">
+                      data e hora
+                      <input type="datetime-local" id="datetime" name="datetime" placeholder="Sou desenvolvedor"
+                          value="2022-08-17T13:37">
+                  </label>
+              </p>
+              <!-- Cor favorita -->
+              <p> <label for="datetime" style="cursor:crosshair;">
+                      corfavorita:
+                      <input type="color" id="color" name="Color" placeholder="color" value="#ff0055">
+                  </label>
+              </p>
+    
+              <!-- Radio buttons, Email, File, Number, URL, Range, Password, Textarea, Select -->
+              <p>
+              <p>Genero:</p>
+              <label for="" style="cursor:help;">
+                  feminino
+                  <input type="radio" id="fem" name="gen">
+              </label>
+              <p> <label for="" style="cursor:pointer;">
+                      masculino
+                      <input type="radio" id="masc" name="gen" checked>
+                  </label>
+              </p>
+              <p> <label for="" style="cursor:pointer;">
+                      Email
+                      <input type="email" id="ok" name="ok" placeholder="joão@email.com">
+                  </label>
+              </p>
+              <p> <label for="" style="cursor:pointer;">
+                      Email
+                      <input type="" id="" name="" accept=".jpeg, .png, .svg, image/* ">
+                  </label>
+              </p>
+              <p> <label for="" style="cursor:pointer;">
+                      Numero
+                      <input type="number" id="" name="" placeholder="digite um numero" min="1" max="10">
+                  </label>
+              </p>
+              <p> <label for="" style="cursor:pointer;">
+                      url
+                      <input type="url" id="" name="" placeholder="http://">
+                  </label>
+              </p>
+              <p> <label for="" style="cursor:pointer;">
+                      range
+                      <input type="range" id="range" name="" placeholder="digite um numero" min="1" max="100" value="50" list="tickmarks">
+                      <datalist id="tickmarks">
+                          <option value="0" label="0%">
+                          <option value="10">
+                          <option value="20">
+                          <option value="30">
+                          <option value="40">
+                          <option value="50" label="50%">
+                          <option value="60">
+                          <option value="70">
+                          <option value="80">
+                          <option value="90">
+                          <option value="100" label="100%">
+                        </datalist>
+                  </label>
+              </p>
+              <p> <label for="" style="cursor:pointer;">
+                      Senha
+                      <input type="password" id="" name="" placeholder="****">
+                  </label>
+              </p>
+              <p> <label for="" style="cursor:pointer;">
+                      texto 
+                      <br>
+    <textarea name="" id="" cols="30" rows="10"></textarea>                    
+    </label>
+              </p>
+              <p> <label for="textarea" style="cursor:pointer;">
+                      seleção
+                      <select type="select" id="" name="select" >
+                      <option value="qualquer" label="valor" disabled></option>
+                      <option value="qualquer2" label="valor2"selected></option>
+                      <option value="qualquer3" label="valor3"></option>
+                      <option value="qualquer4" label="valor4"></option>
+                      <option value="qualquer5" label="valor5"></option>
+                  </label>
+              </select>
+              </p>
+              <!-- Checkbox -->
+              <p> <label for="" style="cursor:pointer;">
+                      Confirmo que aceito os termos de desenvolvedor
+    
+                      <input type="checkbox" id="ok" name="ok" required>
+                      
+                  </label>
+              </p>
+              <p>
+                  <button type="submit" id="">Submit</button>
+                  <button type="reset" id="">Reset</button>
+              </p>
+          </fieldset>
+      </section>
+    </form>
+    <!-- Video -->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/DkFJE8ZdeG8?si=1hbSGv3KkUYcqtbq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1dNUMERO!2dLONGITUDE!3dLATITUDE!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zLATITUDE!3zLONGITUDE!2m1!1smaps!5e0!3m2!1spt-BR!2sbr!4vNUMERO" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    <!-- audio -->
+    <br>
+    <audio controls>
+      <source src="caminho/para/o/seu/audio.mp3" type="audio/mpeg">
+      Seu navegador não suporta o elemento de áudio.
+    </audio>
+      <footer style="background-color: rgb(241, 181, 181); width: 100%;">textarea</footer>
+    </body>
+    
+    </html>
+    
