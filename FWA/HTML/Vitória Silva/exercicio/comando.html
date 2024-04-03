@@ -1,56 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Exercicios</title>
-</head>
-<body>
+  </head>
+  <body>
+    <h1>Titulo</h1>
+    <!--tamanhos das letras-->
+    <h2>Titulo</h2>
+    <h3>Titulo</h3>
+    <h4>Titulo</h4>
+    <h5>Titulo</h5>
+    <h6>Titulo</h6>
+    <!--menor letra-->
 
- <h1>Titulo</h1><!--tamanhos das letras-->
- <h2>Titulo</h2>
- <h3>Titulo</h3>
- <h4>Titulo</h4>
- <h5>Titulo</h5>
- <h6>Titulo</h6><!--menor letra-->
+    <p>Lorem ipsum dolor sit amet.</p>
+    <!--fazer pragrafo-->
+    <b>Lorem ipsum dolor sit amet.</b
+    ><!--negrito-->
+    <i>Lorem ipsum dolor sit amet.</i
+    ><!--italico-->
+    <em>Lorem ipsum dolor sit amet.</em
+    ><!-- enfase?-->
+    <small>Lorem ipsum dolor sit amet.</small
+    ><!-- deixar a letra pequena-->
+    <strong>Lorem ipsum dolor sit amet.</strong
+    ><!--negrito-->
+    <mark>Lorem ipsum dolor sit amet.</mark
+    ><!--tipo marca texto-->
+    <q>Lovvvrem ipsum dolor sit amet.</q>
+    <cite>Lorem ipsum dolor sit amet.</cite>
+    <code>console.log('Hello, word');</code>
+    <br />
+    <br />
 
- <p>Lorem ipsum dolor sit amet.</p> <!--fazer pragrafo-->
- <b>Lorem ipsum dolor sit amet.</b><!--negrito-->
- <i>Lorem ipsum dolor sit amet.</i><!--italico-->
-<em>Lorem ipsum dolor sit amet.</em><!-- enfase?-->
-<small>Lorem ipsum dolor sit amet.</small><!-- deixar a letra pequena-->
- <strong>Lorem ipsum dolor sit amet.</strong><!--negrito-->
- <mark>Lorem ipsum dolor sit amet.</mark><!--tipo marca texto-->
- <q>Lovvvrem ipsum dolor sit amet.</q>
- <cite>Lorem ipsum dolor sit amet.</cite>
- <code>console.log('Hello, word');</code>
-<br>
-<br>
-
-<svg> width="100" height= "100" <circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="pink" /></svg> <!--cria um circulo-->
-<br>
-    <a href="https://www.google.com.br/?hl=pt-BR" target="_blank">link do site</a>
-<blockquote>Lorem ipsum dolor sit amet.</blockquote><!--uma citação em bloco-->
-<div><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere, nemo.</p></div><!--divisoria um bloco-->
-<hr><!--fazer uma linha-->
-<ul><!--fazer uma lista, sem ser de numero com pontinhos-->
-    <li>mamga</li>
-    <li>pera</li>
-    <li>kiwi</li>
-</ul>
-<ol><!--lista ordenada, com numeros-->
-<li>caju</li>
-<li>maçã</li>
-<li>abacate</li>
-</ol>
-
-<ol type="I" start="2"> <!--faz lista com numeros romanos-->
-    <li>caju</li>
-    <li>maçã</li>
-    <li>abacate</li>
-
+    <svg>
+      width="100" height= "100"
+      <circle
+        cx="50"
+        cy="50"
+        r="40"
+        stroke="black"
+        stroke-width="3"
+        fill="pink"
+      />
+    </svg>
+    <!--cria um circulo-->
+    <br />
+    <a href="https://www.google.com.br/?hl=pt-BR" target="_blank"
+      >link do site</a
+    >
+    <blockquote>Lorem ipsum dolor sit amet.</blockquote>
+    <!--uma citação em bloco-->
+    <div>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere, nemo.
+      </p>
+    </div>
+    <!--divisoria um bloco-->
+    <hr />
+    <!--fazer uma linha-->
+    <ul>
+      <!--fazer uma lista, sem ser de numero com pontinhos-->
+      <li>mamga</li>
+      <li>pera</li>
+      <li>kiwi</li>
+    </ul>
+    <ol>
+      <!--lista ordenada, com numeros-->
+      <li>caju</li>
+      <li>maçã</li>
+      <li>abacate</li>
     </ol>
 
+    <ol type="I" start="2">
+      <!--faz lista com numeros romanos-->
+      <li>caju</li>
+      <li>maçã</li>
+      <li>abacate</li>
+    </ol>
 
-</body>
+    <h1>Formulario</h1>
+    <form target="_blank" autocomplete="off">
+      <!--form abre formulario-->
+      <legend>descricao. escreve ai!</legend>
+      <!--texto que fica em cima da caixinha-->
+      <input type="text" id="" name="" placeholder="" />
+      <br />
+      <input
+        type="datetime-local"
+        id="datetime"
+        name="datetime"
+        value="2024-03-17T14:40"
+      />
+      <br />
+
+      <input type="color" value="#ff0055" />
+      <br />
+      <p>
+        feminino
+        <input type="radio" id="fem" />
+      </p>
+      <p>
+        masculino
+        <input type="radio" />
+      </p>
+      <br />
+      <input
+        type="email"
+        name=""
+        id=""
+        placeholder="email00@gmail.com"
+        required
+      />
+      <!--um exemplo transparente-->
+      <!-- o required torna a resposta do campo obrigatoria-->
+      <br />
+      <input type="number" placeholder="numero" min="1" max="10" />
+      <br />
+      <input type="url" placeholder="http://" />
+      <br />
+      <input type="password" placeholder="*******" />
+      <br />
+      <input type="range" min="1" max="100" list="tickmarks" />
+      <br />
+      <select name="" id="">
+        <option label="Valor1" value="valor" disabled></option>
+        <option label="valor2" value="valor" selected></option>
+        <option label="valor3" value="valor"></option>
+        <!--caixinha de seleção-->
+      </select>
+      <br />
+      <p>você aceita todos os nossos termos <input type="checkbox" /></p>
+      <textarea name="" id="" cols="30" rows="10"></textarea>
+      <button>enviar</button>
+      <button>cancelar</button>
+    </form>
+  </body>
 </html>
