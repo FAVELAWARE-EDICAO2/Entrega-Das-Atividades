@@ -1,0 +1,6 @@
+.formulario{
+    background-color: crimson; /*cor de fundo, seja de uma classe ou a pagina inteira*/
+    padding: 10px; /*Margem pra dentro cheio*/
+    margin: 10px;/*distancia da borda, margem pra dentro*/
+border: 2px chartreuse solid; /*borda estilo preta*/
+}
