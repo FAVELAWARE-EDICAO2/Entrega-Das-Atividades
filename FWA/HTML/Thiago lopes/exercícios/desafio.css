@@ -1,0 +1,13 @@
+.header{
+    text-align: center;
+}
+body{
+    background-color: aqua;
+}
+.menu{
+    text-align: center;
+}
+.pizza{
+    height: 500px;
+    width: 500px;
+}
