@@ -1,0 +1,45 @@
+h1{ 
+   font-size: 94px;
+   color: aquamarine;
+}
+.hello2{
+    font-size: 40px;
+    color: blue;
+    font-family: ' New Roman';
+}
+#hello {
+    font-size: 30px;
+    color: black;
+}
+botao {
+    background-color: aqua;
+    color: antiquewhite;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 50%;
+    font-size: 30px;
+    border: ;
+    padding: 10px;}
+
+    .botao{
+        background-color: black;
+        color: aqua;
+        font-family: 'Courier New', Courier, monospace;
+        border-radius: 50% 30% 0 0 ;
+        border: ;
+        padding: 10px; 
+    }
+
+
+    .botao:houver {
+    background-color: aqua;
+    color: blanchedalmond;
+    cursor: pointer;
+    }
+        
+
+        
+        
+
+        
+        
+    
