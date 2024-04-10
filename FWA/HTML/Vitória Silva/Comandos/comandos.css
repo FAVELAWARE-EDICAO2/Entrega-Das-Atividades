@@ -1,0 +1,43 @@
+h1 {
+  font-size: 94px;
+  color: darkgreen;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Oi2 {
+  font-size: 64px; /*Tamanho da letra(tipo H1)*/
+  color: darkolivegreen; /*cor da fonte*/
+  font-family: fantasy; /*a fonte (fonte diferente tipo arial)*/
+}
+
+#oi3 {
+  font-size: 24px;
+  color: darkslategray;
+}
+
+.Bo1 {
+  background-color: blue; /**/
+  font-size: 40px;
+  color: darkslategrey; /*Sempe a cor da letra*/
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  border-radius: 30%; /*arredondar a borda/ sempre em sentido horario primeiro cima depois baixo, depois direita esquerda*/
+  border: chartreuse solid 3px; /*borda*/
+  padding: 10px;
+}
+
+.btm{
+    background-color: blue;
+    color: aqua;
+    font-family: monospace;
+    border-radius: 50% 40%;
+    font-size: 30px;
+    border: bisque solid 6px;
+    padding: 10px;
+    box-shadow: black 10px 10px 10px 10px;/**/
+}
+
+.btm:hover{
+    background-color:blueviolet; /*muda a cor do fundo*/
+    color: brown;/*muda juntamente a cor da fonte*/
+    cursor: wait; /*deixa o pontinho do mouse rodando*/
+}

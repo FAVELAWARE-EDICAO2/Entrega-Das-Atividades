@@ -1,0 +1,29 @@
+h1{
+    font-size: 78px;
+    color: blueviolet;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}.hl2{
+    font-size: 50px;
+    color: rgb(214, 226, 43);   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#hl3{
+    font-size: 30px;
+    color: rgb(27, 221, 21);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.but1{
+    background-color: rgb(0, 255, 153);
+    color: rgb(255, 255, 255);
+    border: 2px solid #003366;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 36px;
+    box-shadow: black 0px 0px 10px;
+}
+.but1:hover{
+    background-color: darkviolet;
+    color:darkcyan;
+    cursor: pointer;  
+}
