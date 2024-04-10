@@ -1,0 +1,12 @@
+.navbar {
+    background-color: yellowgreen;
+    color: aquamarine;
+    padding: 10px;
+}
+.navbar a{
+    font-size: medium;
+    text-decoration: none;
+    color: blue;
+    padding: 2px;
+    font-weight: bold;
+}
