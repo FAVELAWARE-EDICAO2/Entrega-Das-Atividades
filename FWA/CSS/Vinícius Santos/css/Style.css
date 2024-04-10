@@ -1,0 +1,30 @@
+h1{
+font-size: 94px;
+color: beige;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.hello2{
+font-size: 40px;
+color: blue;
+}
+#hello3{   
+font-size: 30px; 
+ color: aqua;
+
+}
+.botao{
+background-color: black;
+color: beige;
+font-family: 'Times New Roman', Times, serif;
+border-radius: 20%;
+font-size: 30px;
+width: 100px;
+height: 100px;
+box-shadow: blueviolet 0px 0px 10px;
+
+}
+.botao:hover{
+background-color: blue;
+color: beige;
+cursor: pointer;
+}
