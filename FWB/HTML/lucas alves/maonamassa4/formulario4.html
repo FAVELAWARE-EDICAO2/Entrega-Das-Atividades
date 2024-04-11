@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Formulário de Pesquisa</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<h2>Formulário de Pesquisa</h2>
+
+<form action="#" method="get" class="pesquisa-form">
+  <label for="produto">Nome do Produto:</label><br>
+  <input type="text" id="produto" name="produto"><br><br>
+  
+  <label for="categoria">Categoria:</label><br>
+  <select id="categoria" name="categoria">
+    <option value="">Selecione</option>
+    <option value="eletronicos">Eletrônicos</option>
+    <option value="vestuario">Vestuário</option>
+    <option value="alimentos">Alimentos</option>
+    <option value="outros">Outros</option>
+  </select><br><br>
+  
+  <label for="preco_min">Preço Mínimo:</label><br>
+  <input type="number" id="preco_min" name="preco_min" min="0" step="0.01"><br><br>
+  
+  <label for="preco_max">Preço Máximo:</label><br>
+  <input type="number" id="preco_max" name="preco_max" min="0" step="0.01"><br><br>
+  
+  <input type="submit" value="Pesquisar" class="pesquisa-btn">
+</form>
+
+</body>
+</html>

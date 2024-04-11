@@ -1,0 +1,36 @@
+*{
+    background-color: burlywood;
+    padding: 0px;
+}
+
+.minhafoto{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+border-radius: 50%;
+border: coral solid;
+box-shadow: darksalmon 10px 10px 10px 10px
+}
+
+.WhatsAppf{
+   box-shadow: coral;
+   width: 200;
+}
+
+.instagram1{
+    border-radius: 50%;
+}
+
+.linkedin{
+    border-radius: 40%;
+}
+h3{
+    font-size:larger;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+ul{
+    color: indianred;
+}
+
