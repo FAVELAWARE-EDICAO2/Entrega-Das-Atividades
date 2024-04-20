@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+
+}
+.body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(80, 80, 80);
+}
+.navbar{
+    padding: 20px;
+    display: flex;
+    justify-content: end;
+    background-color: rgb(26, 26, 26);
+    text-align: end;
+    color: beige;
+}
+.container{
+    
+}
