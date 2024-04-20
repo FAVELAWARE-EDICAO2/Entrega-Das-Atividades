@@ -1,0 +1,15 @@
+.galeria img {
+    width: 300px;
+    height: 300px;
+    margin: 20px 20px;
+    box-shadow: 0 0 10px rgba(58, 2, 55, 0.2); 
+    transition: transform 0.5s ease;
+}
+
+.galeria img:hover {
+    transform: scale(1.25); 
+    }
+
+.galeria img:first-child {
+    width: 300px; 
+}

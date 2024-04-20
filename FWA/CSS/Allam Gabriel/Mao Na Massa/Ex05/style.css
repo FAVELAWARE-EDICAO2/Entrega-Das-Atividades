@@ -1,0 +1,12 @@
+#email{
+    border:2px solid black;
+    padding:2.5vw 2.5vh;
+}
+.submit:hover{
+    background-color: red;
+    color: white;
+}
+input[type="email"]:focus{
+    background-color: yellow;
+    color: black;
+}
