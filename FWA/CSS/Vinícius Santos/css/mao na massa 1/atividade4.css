@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#fotos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+    
+img {
+    margin: 20px;
+    width: 300px;
+
+}
+.img1:hover{
+    transition: 1.5s;
+    width: 400px;
+    box-shadow: black 0px 10px 20px;
+    border-radius: 20px;
+}
+.img2:hover{
+    background-color: aqua;
+    box-shadow: black 0px 10px 20px;
+}
+.img3:hover{
+    transition: 1.5s;
+    border-radius: 20px;
+    width: 400px;
+}
