@@ -1,6 +1,6 @@
 h1 {
     font-size: 94px;
-    color: #9400d3;
+    color: darkviolet;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 
@@ -18,7 +18,7 @@ h1 {
     background-color: #251af1;
     color: azure;
     font-family: 'Courier New', Courier, monospace;
-    border-radius: 50 30 0 0;
+    border-radius: 50% 30% 0 0;
     font-size: 30;
     border: #000000 solid 2px;
     padding: 10px;
