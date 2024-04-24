@@ -41,3 +41,41 @@ h1 {
     color: brown;/*muda juntamente a cor da fonte*/
     cursor: wait; /*deixa o pontinho do mouse rodando*/
 }
+
+
+.grid-container{
+  display: grid;
+  grid-template-columns: 2fr 1fr auto; gap: 5px;
+}
+
+.grid-item{ 
+  background-color: burlywood;
+  border: solid 2px blue;
+  font-size: 15px;
+  
+} 
+
+.flex-container{
+  display: flex;
+  flex-direction: column;
+  background-color: coral;
+}
+
+.flex-container > div {
+  background-color:rgb(223, 77, 24);
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+
+@media screen and (max-width: 480px) {
+  body{
+background-color: darkslategrey;
+  }
+  .flex-container{
+    display: flex;
+    flex-direction: column;
+    background-color: bisque;
+  }
+}
+
