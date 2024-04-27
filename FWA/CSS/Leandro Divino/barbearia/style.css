@@ -8,6 +8,10 @@ body {
     background-color: black;
     color: yellow;
     padding: 20px;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
   }
   
   nav ul {
@@ -31,7 +35,7 @@ body {
   }
   
   .black-bg {
-    background-color: black;
+    background-color: rgb(188, 90, 90);
   }
 
   footer {
@@ -39,5 +43,9 @@ body {
     color: yellow;
     text-align: center;
     padding: 10px 0;
+  }
+
+  .fotos{
+    background-color: rgb(255, 255, 255);
   }
   
