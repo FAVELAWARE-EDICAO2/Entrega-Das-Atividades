@@ -1,20 +1,75 @@
 * {
 }
- body{
-    background-image: url(./Fotos/fundo.webp);
-    
- }
+body{
+  height: 100%;
+  background-image: url(./Fotos/fundo.webp);
+ background-size: cover; /*fiz com que a imagem cobrisse toda a pagina*/
+ background-repeat: no-repeat; /*aqui coloquei no-repeat pra que minha imagem de fundo nao se repita*/
+ background-attachment:fixed; /*aqui estou fazendo com que minha imagem fique fixa na mesma posição*/
+ background-position: center; /*centralizando minha imagem*/
+}
 
+@media screen and (max-width:400px) /*estou deixando minha tela responsiva pra outros dispositivos*/{
+  
+}
 
-.cabeçalho {
-  background-color: rgb(179, 136, 30);
+h1{
+  color: blanchedalmond;/*defini qual seria a cor do meu h1*/
+  text-align: center; /*alinhei meu texto no centro*/
+  border: 2px rgba(247, 245, 242, 0.589) solid; /*defini uma borda, depois a arredondei nas pontas*/
+  border-radius: 50% 50%;
+  padding: auto;
+  margin: auto;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+  
+.cabeçalho { /*fiz o cabeçalho*/
+  background-color: rgb(179, 136, 30); /*coloquei a cor de fundo*/
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
+
 li {
+  color: rgb(0, 0, 0);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   display: inline-block;
   margin: 6px;
 }
-h2{
-    color: burlywood;
+h2 {
+  font-family:'Times New Roman', Times, serif;
+  color: burlywood;
+}
+
+h3{
+  color: rgb(241, 237, 231);
+}
+
+h4{
+  color: burlywood;
+}
+
+.Beloh{
+
+}
+
+.Saop{
+
+}
+
+.Rioj{
+
+}
+
+.Cortes{
+
+}
+
+.produtos{
+
+}
+
+#ccb{
+  background-color: rgba(202, 117, 19, 0.466);
+  box-shadow: 10px 10px 10px rgba(221, 103, 6, 0.74);
+  border-radius: 10% 10% 10%;
 }
