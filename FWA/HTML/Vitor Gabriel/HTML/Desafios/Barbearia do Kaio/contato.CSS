@@ -1,0 +1,122 @@
+body {
+    font: 12px Arial;
+    background: rgb(o, 0, 0);
+    background: radial-gradient(circle, rgba(0, 0, 0, 1) 0%,
+            rgba(30, 15, 38, 1) 86%, rgba(105, 52, 132, 1) 100%);
+    margin: 0;
+    padding: 0;
+}
+
+.barbershop-haircut {
+    float: left;
+    /* Define a posição à esquerda */
+
+}
+
+nav {
+    background: rgba(105, 52, 132);
+    background: linear-gradient(0deg, rgba(105, 52, 132, 1) 44%,
+            rgba(0, 0, 0, 1) 100%);
+    text-align: right;
+    padding: 10px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #c78c19;
+    text-decoration: underline;
+}
+
+
+h2 {
+    color: aliceblue;
+    text-align: center;
+    font-size: 30px;
+}
+
+.rede-social {
+    text-align: right;
+    padding: 2px;
+}
+
+.rede-social img {
+    width: 30px;
+    height: 30px;
+}
+
+.rede-social li {
+    display: inline-block;
+    color: seashell;
+    padding: 3px;
+}
+
+.endereco {
+    color: aliceblue;
+}
+
+#btn {
+
+    padding: 0.Sem 1. Sem;
+    box-shadow: -Spx 6px #693484;
+    border: 3px solid #693484;
+    color: #693484;
+    font-weight: 400;
+    font-size: lem;
+    transition: all ease-in 0.2s;
+    border-radius: 50px;
+}
+
+#btn a {
+    width: 40px;
+    text-align: center;
+    font-size: 28px;
+    color: #693484;
+    text-decoration: none;
+}
+
+.gradient {
+    height: 100vh;
+    width: 100vw;
+
+
+    background: radial-gradient(circle, rgb(0, 0, 0) 0%,
+            rgb(103, 70, 119) 86%, rgb(147, 201, 22) 100%);
+    background-size: 300% 300%;
+    animation: colors 10s ease infinite;
+}
+
+.contato2 {
+    align-items: center;
+    left: 50%;
+    top: 50%;
+    margin-left: 50px;
+    /* Metade do valor da Largura */
+    margin-top: 40vh;
+
+}
+
+@keyframes colors {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
