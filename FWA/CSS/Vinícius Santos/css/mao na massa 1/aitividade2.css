@@ -1,0 +1,10 @@
+.body{
+
+}
+.link{
+    color: black;
+}
+.link1,.link2,.link3,.link4:hover{
+    transition: 0.7s;
+    color: blue;
+}

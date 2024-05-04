@@ -1,36 +1,89 @@
-*{
-    background-color: burlywood;
-    padding: 0px;
+* {
+  padding: 0px;
+}
+h1 {
+  text-align: center;
+  color: white;
 }
 
-.minhafoto{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-border-radius: 50%;
-border: coral solid;
-box-shadow: darksalmon 10px 10px 10px 10px
+.minhafoto {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  border: indigo;
+  box-shadow: white 10px 10px 10px 10px;
 }
 
-.WhatsAppf{
-   box-shadow: coral;
-   width: 200;
+.WhatsAppf {
+  box-shadow: coral;
+  width: 200;
 }
 
-.instagram1{
-    border-radius: 50%;
+.instagram1 {
+  border-radius: 50%;
 }
 
-.linkedin{
-    border-radius: 40%;
+.linkedin {
+  border-radius: 40%;
 }
-h3{
-    font-size:larger;
-    color: white;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-ul{
-    color: indianred;
+h3 {
+  text-align: center;
+  font-size: larger;
+  color: white;
+  font-family: monospace
 }
 
+h3::before{
+    content: "_";
+    padding: 0 5px 0 0;
+    position: relative;
+    bottom: 5px;
+
+}
+
+h3::after{
+    content: "_";
+    padding: 0 0 0 5px;
+    position: relative;
+    bottom: 5px;
+
+}
+
+ul {
+  text-align: center;
+  color: aliceblue;
+  font-family: sans-serif;
+}
+
+h4 {
+  color: white;
+  text-align: center;
+  font-family: initial;
+}
+b {
+  text-align: center;
+}
+
+body {
+  animation: mudarCor 10s infinite; /*aqui eu defino a animação e depois quanto tempo ela dura*/
+}
+
+.icones{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+@keyframes mudarCor {
+  0% {
+    background-color: rgb(207, 206, 206);
+  }
+  50% {
+    background-color: black;
+  }
+  100% {
+    background-color: gray;
+  }
+}
