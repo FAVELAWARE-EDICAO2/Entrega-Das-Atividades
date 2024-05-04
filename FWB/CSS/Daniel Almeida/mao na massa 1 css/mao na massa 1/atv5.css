@@ -1,0 +1,29 @@
+
+form{
+    background-color: darkgrey;/*define a cor do fundo do formulario*/
+    padding: 10px;/*adciona espaçamento ao redor do formulario*/
+    margin: 20px auto;/*define a margem do formulario*/
+    max-width: 800px;/*define a largura maxima do formulario*/
+    border-radius: 10px;/*adciona cantos redondados ao formulario*/
+    box-shadow: 0 0 10px;/*adciona sombra ao formulario*/
+    color: rgb(168, 25, 114);/*define a cor do texto do formulario*/
+
+    margin-top: 20px;
+}
+
+
+
+button[type="submit"] {
+    background-color: pink;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+button{
+
+    margin: px;
+}
+input:focus {
+    border-color: blue;
+}
