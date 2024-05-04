@@ -7,7 +7,7 @@ body{
  background-repeat: no-repeat; /*aqui coloquei no-repeat pra que minha imagem de fundo nao se repita*/
  background-attachment:fixed; /*aqui estou fazendo com que minha imagem fique fixa na mesma posição*/
  background-position: center; /*centralizando minha imagem*/
- backdrop-filter: blur(20px);
+ backdrop-filter: blur(20px);/*estou borrando a imagem de fundo*/
 }
 
 @media screen and (max-width:400px) /*estou deixando minha tela responsiva pra outros dispositivos*/{
