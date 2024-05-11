@@ -1,0 +1,26 @@
+ul{
+    border: black;
+    font-family: Arial, Helvetica, sans-serif; /*define o padrao para o corpo do documento*/
+    margin: 0;/*remove as margens padrao*/
+    padding: 0;/*remove os peenchimentos padrao*/
+    background-color: grey;/*Define a cor do fundo da barra de navegação*/
+    align-items: center;
+}
+
+h1{
+    display: flex;
+   justify-content: center;
+}
+.class{
+    color: white;
+    background-color: black;
+    border: 200px;
+}
+ul > li:hover{
+    color: blue;
+}
+.itemespecial{
+
+    background-color: pink;
+}
+

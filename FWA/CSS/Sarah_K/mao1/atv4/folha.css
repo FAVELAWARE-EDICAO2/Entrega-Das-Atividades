@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+img{
+    margin: 1em;
+    border-radius: 1em;
+  
+}
+h1{
+    text-align: center;
+    margin-top: 1em;
+}
+.foto{
+    margin-top: 2em;
+  justify-content: center;
+    display:flex;
+    transition: width 2s;
+}
+img:first-child  {
+    border: 2px solid blue;
+}
+img:nth-child(2){
+    box-shadow: 2px 2px 9px 4px yellowgreen;
+}
+img:hover{
+    transform: scale(1.1); 
+}

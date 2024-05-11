@@ -1,0 +1,146 @@
+<!-- CRIA A PÁGINA COM HTML5 -->
+<!DOCTYPE html>
+<!-- CONFIGURA A PÁGINA COMO PORTUGUÊS -->
+<html lang="pt-br">
+
+<head>
+  <!-- BOOTSTRAP 3 -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <!-- BOOTSTRAP 3 FIM -->
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Barbearia do Fernando</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+
+  <!-- CABEÇALHO DA PÁGINA -->
+  <header>
+    <div class="index_titulo">
+      <img src="Peinados New Style.jpeg" alt="LogoBarb" width="5%">
+      <h1>Barbearia do Fernando</h1>
+    </div>
+
+    <nav class="index_navmouse">
+      <ul>
+        <li><a href="equipe.html" style="color: aliceblue">| Equipe |</a></li>
+        <li><a href="contato.html" style="color: aliceblue">| Contato |</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- FIM DO CABEÇALHO -->
+
+
+  <!-- CAIXA DE BOAS VINDAS -->
+  <div style="border: 2px solid white;width: 600px;left:5%;" class="index_boasvindas">
+    <div class="index_boasvindas_1">
+      <h1 class="index_titulo_h1_1" style="color: black;">A Sua Barbearia dos sonhos</h1>
+    </div>
+    <h2 class="index_titulo_h2_1"><b>Conheça nosso trabalho com excelência e amor</b></h2>
+
+    <h2 class="index_titulo_h2_1"><b>Seja bem-vindo ao nosso site!</b></h2>
+    <p class="index_titulo_p_1">
+      <b>
+        Estamos muito felizes em tê-lo por aqui.
+        Aqui na Barbearia Fernando, não apenas cuidamos
+        do seu visual, mas também proporcionamos uma
+        experiência única. Explore nossos serviços,
+        conheça nossa equipe e agende sua próxima visita.
+        Estamos ansiosos para recebê-lo em nossa cadeira!
+      </b>
+    </p>
+  </div>
+  <!-- FIM BOAS VINDAS -->
+
+
+  <!-- CAIXA DOS HORÁRIOS -->
+  <div class="index_horarios">
+    <div class="index_horarios_titulo">
+      <h1 class="index_horarios_titulos_h">Horários de Serviços</h1>
+    </div>
+
+    <div class="index_horarios_1">
+      <h2>Segunda a Sexta</h2>
+      <p>Horário de Abertura: 9:00</p>
+      <p>Horário de Fechamento: 19:00</p>
+      <p>Horário de Almoço: 13:00 - 14:00</p>
+    </div>
+
+    <div class="index_horarios_2">
+      <h2>Sábado e Domingo</h2>
+      <p>Horário de Abertura: 10:00</p>
+      <p>Horário de Fechamento: 18:00</p>
+      <p>Sem intervalo para almoço</p>
+    </div>
+  </div>
+  </div>
+  <!-- FIM DA CAIXA DE HORÁRIOS -->
+
+
+  <!-- CARROSEL -->
+  <div class="container">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+      <!-- INDICADORES DE IMAGENS -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+
+      <!-- IMAGENS DOS SERVIÇOS -->
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="carrosel img m/img1.avif" alt="img1" style="width:100%;">
+        </div>
+
+        <div class="item">
+          <img src="carrosel img m/img2.avif" alt="img2" style="width:100%;">
+        </div>
+
+        <div class="item">
+          <img src="carrosel img m/img3.avif" alt="img3" style="width:100%;">
+        </div>
+        <div class="item">
+          <img src="carrosel img m/img4.avif" alt="img4" style="width:100%;">
+        </div>
+        <div class="item">
+          <img src="carrosel img m/img5.avif" alt="img5" style="width:100%;">
+        </div>
+      </div>
+
+      <!-- CONTROLE DE CLIQUE -->
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+      </a>
+    </div>
+  </div>
+  </div>
+  <!-- FIM CARROSEL -->
+
+
+  <!-- IMAGEM DA LOCALIZAÇÃO -->
+  <div class="index_loc">
+    <h1 style="color: purple;"><b>LOCALIZAÇÃO</b></h1>
+    <img src="equipe/gps.png" alt="">
+  </div>
+  <!-- FIM DA IMAGEM -->
+
+  <!-- RODAPÉ -->
+  <footer>
+    <p style="color: azure">
+      &copy; 2024 Barbearia do Fernando. Todos os direitos reservados.
+    </p>
+  </footer>
+  <!-- FIM RODAPÉ -->
+
+</body>
+</html>

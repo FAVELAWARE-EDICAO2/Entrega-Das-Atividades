@@ -1,0 +1,213 @@
+/* Estilos gerais */
+
+body {
+    background-image: url(fundobarb.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: linear-gradient(black,#191919);
+    color:  rgba(220, 197, 71, 0.758);
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color:  rgba(220, 197, 71, 0.758);
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-image: linear-gradient(black,#191919);
+    color:  rgba(220, 197, 71, 0.758);
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilos específicos */
+h1 {
+    color: rgba(220, 197, 71, 0.758);
+}
+h2 {
+    font-size: 24px;
+    color: #333;
+}
+p {
+    font-size: 25px;
+}
+
+
+h1{
+    color :rgba(220, 197, 71, 0.758);
+    font-size: 36px;
+}
+
+#equipe{
+    display: flex;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.s_servicos{
+    width: 600px;
+}
+
+.nav_opcao{
+    background-color: darkblue;
+    color: azure;
+    justify-content: space-between;
+}
+.index_horarios{
+    font-size: 5e;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 38%;
+}
+
+.index_horarios_1{
+    background-color: aliceblue;
+    border: solid black 2px;
+    width: 600px;
+}
+.index_horarios_2{
+    background-color: aliceblue;
+    border: solid black 2px;
+    width: 600px;
+}
+.index_horarios_titulo{
+    color: #191919;
+    background-color: rgba(220, 197, 71, 0.758);
+    border: solid black 2px;
+    width: 600px;
+}
+
+.index_horarios_titulos_h{
+    color: #191919;
+}
+
+ul li :hover{
+    color: black;
+    border: solid rgba(220, 197, 71, 0.758) 2px;
+}
+
+.index_carrosel_m_1{
+    width: 600px;
+    background-color: rgba(220, 197, 71, 0.758);
+    border: solid black 2px;
+    width: 600px;
+}
+
+.index_loc{
+    font-size: 5e;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 1%; 
+}
+.index_loc_h1 :hover{
+    color: red;
+}
+
+.index_titulo_h1_1{
+    font-size: 40px;
+}
+
+.index_titulo_h2_1{
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    width: 600px;
+}
+.index_titulo_p_1{
+    color: black;
+    font-size: 30px;
+    width: 600px;
+}
+
+.index_boasvindas{
+    background-color: rgba(255, 255, 255, 0.521);
+    font-size: 5e;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 25%;
+    left: 1%; 
+}
+.index_boasvindas_1{
+    width: 100%;
+    background-color: rgba(255, 217, 0, 0.384);
+    color: black;
+}
+.equipe_eqps{
+    text-align: center;
+}
+.equipe_eqps_borda{
+    background-color: rgba(240, 248, 255, 0.432);
+    color: black;
+    border: 2px solid #191919;
+    width: 600px;
+    top: 50%;
+    left: 35%;
+    position: relative;
+}
+.equipe_eqps_titulo{
+    background-color: rgba(255, 217, 0, 0.384);
+}
+.equipe_eqps_video{
+    background-color: rgba(240, 248, 255, 0.422);
+    text-align: center;
+    top: 50%;
+    left: 35%;
+}
+.equipe_eqps_video_titulo{
+    background-color: rgba(255, 217, 0, 0.345);
+}
+
+.contato_cnt_1{
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contato_cnt{
+    text-align: center;
+}
+
+.contato_cnt_1_img1 , .contato_cnt_1_img2 , .contato_cnt_1_img3 {
+    transition: transform 0.3s ease; /* Adiciona uma transição suave */
+}
+
+.contato_cnt_1_img1 :hover , .contato_cnt_1_img2 :hover , .contato_cnt_1_img3 :hover {
+    transform: scale(1.1); /* Aumenta o tamanho em 10% */
+}
+
+.contato_feedback{
+    text-align: center;
+    top: 50%;
+    left: 35%;
+}

@@ -1,0 +1,40 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Inscrição</title>
+</head>
+<body>
+    <form action="processar_formulario.php" method="POST" enctype="multipart/form-data">
+        <fieldset>
+            <legend>Informações Pessoais:</legend>
+            <label for="nome">Nome completo:</label><br>
+            <input type="text" id="nome" name="nome" required><br>
+            <label for="email">Endereço de e-mail:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            <label for="telefone">Número de telefone:</label><br>
+            <input type="tel" id="telefone" name="telefone" required><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Área de Interesse:</legend>
+            <input type="checkbox" id="tecnologia" name="interesse" value="Tecnologia">
+            <label for="tecnologia">Tecnologia</label><br>
+            <input type="checkbox" id="saude" name="interesse" value="Saúde">
+            <label for="saude">Saúde</label><br>
+            <input type="checkbox" id="educacao" name="interesse" value="Educação">
+            <label for="educacao">Educação</label><br>
+            <input type="checkbox" id="negocios" name="interesse" value="Negócios">
+            <label for="negocios">Negócios</label><br>
+            <input type="checkbox" id="outro" name="interesse" value="Outro">
+            <label for="outro">Outro:</label>
+            <input type="text" id="outro" name="outro_interesse"><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Upload de Currículo:</legend>
+            <input type="file" id="curriculo" name="curriculo" accept=".pdf,.doc,.docx" required><br>
+        </fieldset>
+
+        <input type="submit" value="Enviar">
+    </form>
+</body>
