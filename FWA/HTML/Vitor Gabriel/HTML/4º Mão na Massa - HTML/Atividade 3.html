@@ -1,25 +1,81 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tabela</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cronograma do Evento</title>
+<style>
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+</style>
 </head>
-
 <body>
-    <table border="1">
-        <tr>
-            <td>Hora</td>
-            <td>Evento</td>
-            <td>Descrição</td>
-        </tr>
-        <tr>
-            <td>15:00</td>
-            <td>Reveiilon</td>
-            <td>Comemoração do fim do ano</td>
-        </tr>
-    </table>
-</body>
 
+<table>
+  <thead>
+    <tr>
+      <th>Hora</th>
+      <th>Evento</th>
+      <th>Descrição</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="2">08:00 - 09:00</td>
+      <td>Registro</td>
+      <td>Check-in dos participantes</td>
+    </tr>
+    <tr>
+      <td>Recepção</td>
+      <td>Boas-vindas e café da manhã</td>
+    </tr>
+    <tr>
+      <td>09:00 - 10:30</td>
+      <td>Palestra Principal</td>
+      <td>Palestra sobre o tema principal do evento</td>
+    </tr>
+    <tr>
+      <td>10:30 - 11:00</td>
+      <td>Coffee Break</td>
+      <td>Pausa para café e networking</td>
+    </tr>
+    <tr>
+      <td rowspan="2">11:00 - 12:30</td>
+      <td>Workshop A</td>
+      <td>Workshop prático sobre tópico A</td>
+    </tr>
+    <tr>
+      <td>Workshop B</td>
+      <td>Workshop prático sobre tópico B</td>
+    </tr>
+    <tr>
+      <td>12:30 - 14:00</td>
+      <td>Almoço</td>
+      <td>Intervalo para almoço</td>
+    </tr>
+    <tr>
+      <td>14:00 - 15:30</td>
+      <td>Painel de Discussão</td>
+      <td>Painel com especialistas discutindo tópicos relevantes</td>
+    </tr>
+    <tr>
+      <td rowspan="2">15:30 - 17:00</td>
+      <td>Sessão de Networking</td>
+      <td>Oportunidade para interagir e fazer contatos</td>
+    </tr>
+    <tr>
+      <td>Sessão de Encerramento</td>
+      <td>Encerramento do evento e agradecimentos</td>
+    </tr>
+  </tbody>
+</table>
+
+</body>
 </html>
