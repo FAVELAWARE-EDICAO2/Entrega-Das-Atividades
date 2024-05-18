@@ -1,12 +1,12 @@
 let numeroInteiro = 7;
 let numeroDecimal = 7.5;
-let texto = "olá mundo!";
+var texto = "olá mundo!";
 let booleano = true;
 let array = [1, 2, 3, 4, 5]
 let carro = { marca: "fiat", 
               modelo: "uno"}
 //------------------------------
-let nome = "leo"
+var nome = "leo"
 let idade = 25;
 let cidade = "rio de janeiro"
 
@@ -29,13 +29,13 @@ console.log(resuladoSomar + " " + resuldatoMultiplicar + " " + resuldatoDividir 
 
 //--------------------
 
-let texto = "ola mundo"
+var texto = "ola mundo"
 
 console.log(texto)
 
 //--------------------
 
-let nome = "leandro"
+var nome = "leandro"
 
 console.log(nome)
 
