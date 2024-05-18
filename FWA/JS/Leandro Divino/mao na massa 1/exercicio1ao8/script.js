@@ -26,3 +26,21 @@ let subitrair = numero1 - numero2;
 let resuldatoResto = numero1 % numero2;
 
 console.log(resuladoSomar + " " + resuldatoMultiplicar + " " + resuldatoDividir + " " + resuldatoSubtrair + " " + resuldatoResto);
+
+//--------------------
+
+let texto = "ola mundo"
+
+console.log(texto)
+
+//--------------------
+
+let nome = "leandro"
+
+console.log(nome)
+
+//--------------------
+
+let mensagem = "ola, eu sou Leandro tudo bem com você?"
+
+console.log(mensagem)
