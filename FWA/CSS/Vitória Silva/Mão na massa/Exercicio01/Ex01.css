@@ -1,0 +1,13 @@
+*{
+    background-color: bisque;
+}
+
+h1{
+    color: brown;
+    font-family: fantasy, 'Times New Roman', Times, serif;
+}
+
+p{
+    color: darkred;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

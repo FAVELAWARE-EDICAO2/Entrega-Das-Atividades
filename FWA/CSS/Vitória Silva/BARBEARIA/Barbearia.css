@@ -1,0 +1,99 @@
+* {
+}
+body {
+  height: 100%;
+  background-image: url(./Fotos/fundo.webp);
+  background-size: cover; /*fiz com que a imagem cobrisse toda a pagina*/
+  background-repeat: no-repeat; /*aqui coloquei no-repeat pra que minha imagem de fundo nao se repita*/
+  background-attachment: fixed; /*aqui estou fazendo com que minha imagem fique fixa na mesma posição*/
+  background-position: center; /*centralizando minha imagem*/
+  backdrop-filter: blur(9px); /*estou borrando a imagem de fundo*/
+}
+
+@media screen and (max-width: 400px) /*estou deixando minha tela responsiva pra outros dispositivos*/ {
+}
+
+h1 {
+  color: blanchedalmond; /*defini qual seria a cor do meu h1*/
+  text-align: center; /*alinhei meu texto no centro*/
+  border-left: 6px solid gold; /*defini uma borda, mas somente no canto esquerdo*/
+  border-right: 6px solid gold; /*agora uma borda pro canto direito*/
+  padding: auto;
+  margin: auto;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.cabeçalho {
+  /*fiz o cabeçalho*/
+  background-color: rgb(179, 136, 30); /*coloquei a cor de fundo*/
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+li {
+  color: rgb(0, 0, 0);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: inline-block;
+  margin: 6px;
+}
+h2 {
+  font-family: "Times New Roman", Times, serif;
+  color: burlywood;
+}
+
+h3 {
+  color: rgb(241, 237, 231);
+}
+
+h4 {
+  color: burlywood;
+}
+
+.Beloh {
+  display:block;
+  margin: auto;
+  margin-bottom: 30px;
+  
+
+}
+
+.Saop {
+  display:block;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.Rioj {
+  display:block;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.Cortes {
+  display:block;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+th{
+  color: coral;
+  border: 3px chocolate solid;
+}
+
+.produtos {
+  display:block;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+#ccb {
+  background-color: rgba(202, 117, 19, 0.466);
+  box-shadow: 10px 10px 10px rgba(221, 103, 6, 0.74);
+  border-radius: 10% 10% 10%;
+}
+
+.Contato {
+  border-radius: 50px 50px;
+  border-image: auto;
+  padding: 30px;
+  box-shadow: 3px 3px 3px azure;
+}

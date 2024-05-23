@@ -1,0 +1,37 @@
+h1{
+    font-size:94px;
+color: rgb(69, 223, 223);
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+
+.hello2{
+font-size: 40px;
+color: rgb(22, 22, 99) !important;
+}
+
+#hello3{
+    font-size: 30px;
+    color:blueviolet
+}
+
+
+.botao {
+background-color: brown;
+color: aquamarine;
+font-family: 'Courier New', Courier, monospace;
+border-radius:40% 20% 0 0;
+font-size: 30px;
+border:bleck solid ;
+padding: 10px;
+
+}
+.botao:hover{
+    background-color: chartreuse;
+    color: coral;
+    cursor: pointer;
+}
+
+
+

@@ -1,0 +1,14 @@
+body{
+font-family: 'Inter', sans-serif;
+font-size: 1.125rem;
+height: 100vh;
+display: -moz-grid;
+color: white;
+background-color: gray;
+}
+ul a {
+    color: blue; 
+    text-decoration: none; 
+    font-weight: bold;}
+ul > li:hover {
+    color: red;}

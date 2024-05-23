@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrossel de Fotos</title>
+    <style>
+        .Produtos {
+            width: 80%;
+            /* Largura do carrossel */
+            margin: 0 auto;
+            /* Centraliza o carrossel na página */
+            overflow: hidden;
+            /* Esconde as partes das imagens que estiverem fora do carrossel */
+            white-space: nowrap;
+            /* Faz com que as imagens fiquem em linha */
+        }
+
+        .Produtos img {
+            width: 100%;
+            /* Faz com que as imagens ocupem toda a largura do carrossel */
+            display: inline-block;
+            /* Permite que as imagens fiquem em linha */
+            vertical-align: top;
+            /* Alinha as imagens ao topo do carrossel */
+        }
+
+        /* Animação para mover as imagens */
+        @keyframes slide {
+            0% {
+                transform: translateX(0);
+            }
+
+            100% {
+                transform: translateX(-100%);
+            }
+        }
+
+        .Produtos img {
+            animation: slide 5s infinite;
+            /* Define a animação de slide */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="carousel">
+        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/5/55/SoulResureccion.jpg/220px-SoulResureccion.jpg" alt="Imagem 1">
+        <img src="https://upload.wikimedia.org/wikipedia/pt/thumb/b/be/Guitar_Hero_3_capa.png/270px-Guitar_Hero_3_capa.png" alt="Imagem 2">
+        <img src="https://upload.wikimedia.org/wikipedia/pt/thumb/9/96/Xenoblade_Chronicles_capa.png/270px-Xenoblade_Chronicles_capa.png" alt="Imagem 3">
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, Helvetica, sans-serif; /*define o padrao para o corpo do documento*/
+    margin: 0;/*remove as margens padrao*/
+    padding: 0;/*remove os peenchimentos padrao*/
+    background-color: black;/*Define a cor do fundo da barra de navegação*/
+}
+nav ul {
+    text-align: end;/*alinha os itens da lista a direita*/
+    padding: 20px;/*adciona preenchimento ao redor da lista de navegação*/
+    margin: 0;/*remove as margens padrao*/
+    background-color: grey;/*define a cor do fundao da barra de navegação*/
+}
+nav ul li {
+    display: inline-block;/*faz com que os itens da barra de navegação fiquem na mesma linha*/
+    text-decoration: none;/*adciona margen a direita de cada item da lista de navegação*/
+    font-size: 20px;
+    color: grey;
+}
+nav ul li a {
+    text-decoration: none;/*remove a decoração de sublinhado dos links*/
+    font-size: 16px;/*define o tamanho das fontes dos links*/
+    color: white;/*Define a cordos dos textos dos links*/
+}
+
+nav ul li a:hover {
+    color: black;/*muda a cor do texto dos links qaundo passa o mouse sobre eles*/
+}
+.conteudo_01{
+   background-color: grey;/*muda a cor do fundo*/
+    padding: 20px;/* da um espaçamento*/
+    margin: 20px auto;/*fa um espaçamento lateral*/
+    max-width: 800px;/*difine o tamanho*/
+    border-radius: 10px;/*adciona cantos arredondados*/
+    color: white;/*define a cor do texto*/
+}
+.conteudo_01{
+    margin-bottom: 20px;/*define a margem inferior dos paragrafos*/
+}
+
+form{
+    background-color: darkgrey;/*define a cor do fundo do formulario*/
+    padding: 20px;/*adciona espaçamento ao redor do formulario*/
+    margin: 20px auto;/*define a margem do formulario*/
+    max-width: 800px;/*define a largura maxima do formulario*/
+    border-radius: 10px;/*adciona cantos redondados ao formulario*/
+    box-shadow: 0 0 10px;/*adciona sombra ao formulario*/
+    color: rgb(168, 25, 114);/*define a cor do texto do formulario*/
+}
+form label{
+    display: block;/*faz com que as etiquetas do formulario fiquem em blocos*/
+    margin-bottom: 10px;/*define a margem inferior das etiquetas*/
+}

@@ -1,0 +1,54 @@
+/*Estilo  Gerais da pagina*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(165, 42, 114);
+}
+nav ul{
+    text-align: end;
+    padding: 20px;
+    margin: 0;
+    background-color: blueviolet;
+}
+nav ul li {
+    display: inline;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(215, 221, 250);
+}
+nav ul li a{
+    text-decoration: nome;
+    font-size: 16px;
+    color: aqua;
+
+}
+nav ul a:houver{
+  color: bisque;  
+}
+
+/*Fazendo a estilizão do conteudo*/
+.conteudo__01{
+    background-color: rgb(43, 226, 150);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 10px;
+    color: aquamarine;
+}
+.conteudo__01 p{
+    margin-bottom: 20px;
+}
+/*Aplicando estilo no formulario*/
+form{
+    background-color: black;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    box-shadow: 0 0 10px;
+    color: blue;
+}
+form label{
+    display: block;
+    margin-bottom: 10px;
+}

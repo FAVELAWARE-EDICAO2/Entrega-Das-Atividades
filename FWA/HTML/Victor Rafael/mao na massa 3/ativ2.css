@@ -1,0 +1,32 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;    
+    text-decoration: none;
+    list-style: none;
+}
+.center{
+    color: #ffffff;
+    background-image: linear-gradient(to bottom, #000, #011111, #022222);
+    width: 40%;
+    height: 800px;
+    border: solid 2px;
+    box-shadow: 0 0 0 0 ragb(0,0,0,1);
+}
+
+.teste{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.foto{
+    width: 20%;
+    border: black solid 2px;
+    border-radius: 30% ;
+}
+.name{
+    color: #000000;
+    font-size: 30px;
+}
+h1{
+    border-bottom: 2px solid #fff;
+}
