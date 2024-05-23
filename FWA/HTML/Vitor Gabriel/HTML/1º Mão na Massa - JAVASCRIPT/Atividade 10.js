@@ -2,4 +2,4 @@
 ela o seu nome como uma string e faça aparecer no
 console. */
 let nome = "Vitor";
-console.log("Bem vindo:",nome)
+console.log("Bem vindo:", nome)

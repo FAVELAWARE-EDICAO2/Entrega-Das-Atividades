@@ -4,5 +4,5 @@ resultadoSoma. Em seguida, exiba o
 resultado no console. */
 let numero1 = 10;
 let numero2 = 20;
-let resultadoSoma = numero1 +  numero2;
+let resultadoSoma = numero1 + numero2;
 console.log(resultadoSoma)

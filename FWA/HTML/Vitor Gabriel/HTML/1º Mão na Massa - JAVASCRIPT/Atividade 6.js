@@ -5,4 +5,4 @@ console. */
 let numero1 = 100;
 let numero2 = 20;
 let resultadoDivisão = numero1 / numero2;
-console.log (resultadoDivisão)
+console.log(resultadoDivisão)

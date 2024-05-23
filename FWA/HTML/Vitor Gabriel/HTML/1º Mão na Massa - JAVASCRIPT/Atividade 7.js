@@ -5,4 +5,4 @@ no console.*/
 let numero1 = 120;
 let numero2 = 50;
 let resultadoSubtração = numero1 - numero2;
-console.log("O resultado é",resultadoSubtração)
+console.log("O resultado é", resultadoSubtração)
