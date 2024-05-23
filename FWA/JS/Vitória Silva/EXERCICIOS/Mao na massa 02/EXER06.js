@@ -21,5 +21,4 @@ switch (num) {
     case 7:
     console.log("Sabado")
     break;
-    
 }
