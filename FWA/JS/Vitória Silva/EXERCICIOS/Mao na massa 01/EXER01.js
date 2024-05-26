@@ -7,9 +7,11 @@ maior = idade >= 18
 maior = idade < 18
 console.log (idade >18)                                                        
 var bichos = ["tucanito", "periquito", "tico-tico", "galinhita"]
-console.log( typeof bichos[3])
+console.log( bichos[3])
+console.log(typeof bichos[3])
 let frutas = {fruta: "manga", forma: "redonda", epoca: "fevereiro"
 }
 console.log(frutas)
 console.log(typeof frutas)
 
+7
