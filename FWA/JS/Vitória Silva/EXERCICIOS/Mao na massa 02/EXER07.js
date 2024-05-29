@@ -5,7 +5,7 @@ let char = prompt("digite seu simbolo matematico(+,-,/,* e %)")
 let resultado
 
 switch (char){
-    case "+":
+     case "+":
     resultado = num1 + num2;
     break
     case "-":
