@@ -10,7 +10,7 @@ switch (num) {
     console.log("Terça-feira");
     break;
   case 4:
-    console.log("Quarta-feira"); /*perguntar como funciona o break*/
+    console.log("Quarta-feira");
     break;
   case 5:
     console.log("Quinta-feira");
