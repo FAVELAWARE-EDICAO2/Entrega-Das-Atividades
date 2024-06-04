@@ -6,14 +6,31 @@ h1{
     color: aqua;
     background-color: rgb(101, 173, 197);
 }
-
-img{
-
-    border: aqua mediumaquamarine;
-    margin: 30px;
-
+img:first-child{
 }
 
-div.div{
-    
+.peixes{
+    border: solid 4px rgb(9, 113, 204);
+    background-color: aqua;
+    box-shadow: mediumturquoise 6px 6px 6px;
+}
+.peixes:hover{
+    border: solid 4px darkturquoise;
+   
+}
+
+.pes{
+    border: solid 4px rgb(121, 165, 215);
+    box-shadow: 6px 6px 6px darkblue ;
+}
+.pes:hover{
+    border: solid 6px darkred;
+}
+
+.barcos{
+    border: solid 4px lightskyblue;
+}
+
+.barcos:hover{
+    border:solid 6px rgb(19, 214, 185)
 }
