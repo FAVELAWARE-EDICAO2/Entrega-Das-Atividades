@@ -1,0 +1,50 @@
+
+> console.log("oi priquito")
+oi priquito
+undefined
+> console.log(2+4)
+6
+undefined
+> var idade = 18
+undefined
+> console.log (idade)
+18
+undefined
+> maior = idade >= 18
+true
+> maior = idade < 18
+false
+
+> let pessoa = { nome: "Emily",
+... idade: 04,
+... cidade: "Porto alegre"
+... };
+undefined
+> console.log(pessoa)
+{ nome: 'Emily', idade: 4, cidade: 'Porto alegre' }
+undefined
+> console.log(pessoas[2])
+Uncaught ReferenceError: pessoas is not defined
+> var numeros= [1,2,3,4]
+undefined
+> console.log(numeros[2])
+3
+undefined
+> var nomes = [ana,simone,jessica,yuri]
+Uncaught ReferenceError: ana is not defined
+> var nomes = ["ana", "simone", "jessica", "yuri"]
+undefined
+> const simbolo = Symbol ("piriquito")
+undefined
+> const outrosimbolo= simbolo
+undefined
+> comp = simbolo == outrosimbolo
+true
+> var meuNome = "piriquito"
+undefined
+> console.log(`O meu nome é ${meuNome}`)
+O meu nome é piriquito
+undefined
+>
+>
+
