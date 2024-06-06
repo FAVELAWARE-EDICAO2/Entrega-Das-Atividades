@@ -1,4 +1,8 @@
-/* 9. Você é um desenvolvedor responsável por criar um sistema simples de gerenciamento de tarefas. Cada tarefa é representada como uma string em um array. Seu objetivo é adicionar, remover e listar tarefas diretamente no código sem usar funções.
+/* 9. Você é um desenvolvedor responsável por criar um
+   sistema simples de gerenciamento de tarefas. Cada
+   tarefa é representada como uma string em um array. 
+   Seu objetivo é adicionar, remover e listar tarefas
+   diretamente no código sem usar funções.
 
 Especificações:
 
