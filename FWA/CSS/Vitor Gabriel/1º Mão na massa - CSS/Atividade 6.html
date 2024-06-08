@@ -1,0 +1,137 @@
+<!-- 
+    
+6) Crie uma estrutura HTML que divida o currículo em
+seções claras, como: Resumo Profissional, Experiência
+Profissional, Formação Acadêmica, Competências e 
+Informações de Contato. Use as tags semânticas do
+HTML (header, section, footer) para estruturar o
+conteúdo de forma lógica. Utilize CSS para estilizar o currículo, garantindo que ele seja visualmente atraente e fácil de ler. Preste atenção especial à escolha de cores, fontes e espaçamentos.
+Aplique estilos específicos para cada seção para diferenciá-las visualmente (por exemplo, cores de fundo alternadas para as seções ou bordas e margens específicas).
+
+
+
+-->
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo</title>
+    <style>
+        h4 {
+            text-align: center;
+        }
+
+        header {
+            background-color: black;
+            color: azure;
+            padding: 10px;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0%;
+            padding: 0%;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        img {
+            max-width: 200px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+            transition: 2s;
+        }
+
+        h2 {
+            color: blue;
+        }
+
+        .social-links li {
+            display: inline-block;
+            margin-right: 10px;
+        }
+
+        img:hover {
+            background-color: blue;
+        }
+
+        img:active {
+            background-color: chartreuse;
+        }
+
+        .Likedin-image {
+            border-radius: 0;
+            clip-path: circle();
+        }
+
+        section {
+            background-color: aliceblue;
+            margin-bottom: 30px;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <img src="https://avatars.githubusercontent.com/u/139179009?s=400&u=83e43a7ee2b61d24ae5c82e80e7cbbe43ba39ae4&v=4"
+                alt="Foto">
+            <h1>Vitor Gabriel Morais</h1>
+            <h5>Belo Horizonte, Brasil</h5>
+            <section>
+                <header>Formação Acadêmica</header>
+                <h3>Ensino médio completo</h3>
+            </section>
+            <section>
+                <header>Cursos</header>
+                <h4>Informática básica (Excel, Word e Power Point) - Obras Sociais Pavonianas</h4>
+                <h4>Low Code - Obras Sociais Pavonianas</h4>
+                <h4> FavelaWare (Html, CSS e JavaScript) - Obras Sociais Pavonianas</h4>
+            </section>
+            <section>
+                <header>Habilidades</header>
+                <ul>
+                    <li>Foco</li>
+                    <li>Organização</li>
+                    <li>Visão sistêmica</li>
+                    <li>Proatividade</li>
+                    <li>Integridade</li>
+                    <li>Coerência</li>
+                </ul>
+            </section>
+            <section>
+                <header>Experiencia Profissional</header>
+                <h4>Aberto a novas Experiências e procurando a primeira oportunidade de trabalho</h4>
+            </section>
+            <section>
+                <header>Contato e Redes Sociais</header>
+                <h4>E-mail: <a href="mailto:vitorgabriielm@gmail.com">vitorgabriielm@gmail.com</a></h4>
+                <h4>Telefone: (31)9905-3123</h4>
+
+                <ul class="social-links">
+                    <li><a href="https://www.linkedin.com/in/vitor-gabriel-823a242a3/">
+                            <img class="Likedin-image" src="Likedin.svg" width="40" alt="LinkedIn icon">
+                        </a>
+                    </li>
+                    <li><a href="https://github.com/vitorx20"><img
+                                src="https://cdn-icons-png.flaticon.com/512/25/25231.png" width="45" alt="Git Hub icon">
+                            <!-- Adicione mais redes sociais conforme necessário-->
+            </section>
+            </ul>
+    </main>
+</body>
+
+</html>

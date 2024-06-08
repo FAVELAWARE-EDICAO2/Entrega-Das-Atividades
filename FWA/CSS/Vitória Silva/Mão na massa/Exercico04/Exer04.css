@@ -1,0 +1,47 @@
+*{
+    background-color:cadetblue;
+}
+
+h1{
+    color: aqua;
+    background-color: rgb(101, 173, 197);
+}
+
+img{
+object-fit: cover;
+width: 400px;
+height: 400px;
+}
+img:first-child{
+   box-shadow: 15px 15px 15px 15px;
+}
+
+.peixes{
+    border: solid 4px rgb(9, 113, 204);
+    background-color: aqua;
+    box-shadow: mediumturquoise 6px 6px 6px;
+}
+.peixes:hover{
+    border: solid 4px darkturquoise;
+    width: 450px;
+   
+}
+
+.pes{
+    border: solid 4px rgb(121, 165, 215);
+    box-shadow: 10px 10px 10px 10px darkblue ;
+}
+.pes:hover{
+    border: solid 6px darkred;
+    width: 450px;
+}
+
+.barcos{
+    border: solid 4px lightskyblue;
+    box-shadow: 10px 10px 10px 10px rgb(0, 130, 134);
+}
+
+.barcos:hover{
+    border:solid 6px rgb(19, 214, 185);
+    width: 450px;
+}

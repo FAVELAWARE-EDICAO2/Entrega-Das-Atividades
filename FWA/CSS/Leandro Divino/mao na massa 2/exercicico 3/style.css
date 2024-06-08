@@ -1,0 +1,26 @@
+/* styles.css */
+
+.product-card {
+  width: 250px;
+  padding: 20px;
+  margin: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transição para escala e rotação */
+  display: inline-block;
+}
+
+.product-card:hover {
+  transform: scale(1.05) rotate(2deg); /* Aumenta a escala e gira um pouco ao passar o mouse */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Aumenta a sombra ao passar o mouse */
+}
+
+.product-name {
+  font-weight: bold;
+}
+
+.product-description, .product-price {
+  margin-top: 10px;
+}
