@@ -1,3 +1,53 @@
 <!--Desenvolva um programa que solicite ao usuário dois números e um operador (+, -, *, /). 
 Utilize uma estrutura switch/case para calcular o resultado da operação selecionada entre os dois números.
  Se o operador for inválido, o programa deve imprimir "Operador inválido".-->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 7 JS por Allam Gabriel</title>
+</head>
+<body>
+        <label for="var1_for">Digite um Numero<input type="text" id="var1_id" required></label>
+        <select id="operadores_id" required>
+            <option value="Selecionar">Selecione</option>
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">/</option>
+        </select>
+        <label for="var2_for">Digite outro Numero <input type="text" id="var2_id" required></label>
+        <button type="button" onclick="matematica()">Calcular</button>
+</body>
+</html>
+<script>
+function matematica(){
+    var var1 = Number(document.getElementById("var1_id").value);
+    var var2 = Number(document.getElementById("var2_id").value);
+    var operadores_js = document.getElementById("operadores_id").value;
+    var resultado = 0;
+    switch (operadores_js){
+    //Adição
+    case "+":
+    resultado = var1 + var2;
+    alert("O seu resultado é :" + resultado);
+    break;
+    //Subtração
+    case "-":
+    resultado = var1 - var2;
+    alert("O seu resultado é :" + resultado);
+    break;
+    //Multiplicação
+    case "*":
+    resultado = var1 * var2;
+    alert("O seu resultado é :" + resultado);
+    break;
+    //Divisão
+    case "/":
+    resultado = var1 / var2;
+    alert("O seu resultado é :" + resultado);
+    break;
+    }
+}
+</script>
