@@ -10,3 +10,4 @@ Filtre os números do array para obter apenas aqueles maiores que 7.
 Some todos os elementos do array.
 Imprima o array final e a soma dos elementos.
  */
+
