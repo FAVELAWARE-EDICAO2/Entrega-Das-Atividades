@@ -1,0 +1,20 @@
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .galeria img {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(221, 11, 11, 0.3); 
+    transition: transform 0.3s ease;
+  }
+  
+  .galeria img:first-child {
+    width: 300px; }
+  
+  .galeria img:hover {
+    transform: scale(1.05); 
+  }
