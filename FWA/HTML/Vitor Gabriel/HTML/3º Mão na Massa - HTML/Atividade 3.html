@@ -1,22 +1,106 @@
+<!-- Crie duas páginas HTML: "jogos_bons.html" e
+     "descricao_jogos.html". Insira fotos de seus 
+      jogos preferidos na primeira página, 
+      quando o usuário clicar ele vai ser 
+      direcionado para a segunda onde 
+      poderá ler os detalhes dos jogos.-->
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meus Jogos Favoritos</title>
-</head>
-<body>
+    <title>Jogos que eu gosto</title>
     <style>
         img {
-        width: 300px;
-        height: 300px;}
+            width: 300px;
+            height: 300px;
+        }
+
+        img:hover {
+            width: 325px;
+            height: 325px;
+            border: 4px solid #ffe600;
+            transition: all 0.3s ease;
+
+        }
+
+        img:active {
+            filter: brightness(140%)
+        }
+
+        body {
+            margin: 50px;
+            padding: 0cqmax;
+            ;
+            font-family: Arial, sans-serif;
+        }
+
+        #video-background {
+            position: fixed;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1;
+        }
+
+        #content {
+            position: relative;
+            z-index: 1;
+            text-align: center;
+            color: white;
+            padding: 50px;
+        }
+
+        h1 {
+            font-size: 1.2em;
+        }
     </style>
-<a href="Descrição dos jogos1.html" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/b/b2/Attack_on_Titan_decalless_cover_art.jpg/220px-Attack_on_Titan_decalless_cover_art.jpg"></a>
-<a href="Descrição dos jogos2.html"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/5/55/SoulResureccion.jpg/220px-SoulResureccion.jpg" alt=""></a>
-<a href="Descrição dos jogos3.html"><img src="https://upload.wikimedia.org/wikipedia/pt/thumb/b/be/Guitar_Hero_3_capa.png/270px-Guitar_Hero_3_capa.png" alt=""></a>
-<a href="Descrição dos jogos4.html"><img src="https://upload.wikimedia.org/wikipedia/pt/thumb/8/8c/DBZ_BT3.jpg/270px-DBZ_BT3.jpg" alt=""></a></li>
-<a href="Descrição dos jogos5.html"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/b/be/OkamiNTSCcoverFinal.jpg/220px-OkamiNTSCcoverFinal.jpg" alt="Okami"></a>
-<a href="Descrição dos jogos6.html"><img src="https://upload.wikimedia.org/wikipedia/pt/thumb/9/96/Xenoblade_Chronicles_capa.png/270px-Xenoblade_Chronicles_capa.png" alt="Xenoblade Chronicles"></a>
-</body>
+</head>
+
 <body>
+
+    <video id="video-background" autoplay muted loop>
+        <source src="videoplayback.mp4">
+        Seu navegador não suporta vídeos em HTML5.
+    </video>
+
+    <audio src="08.mp3" autoplay ></audio> 
+
+    <div id="content">
+        <h2>Jogos que recomendo</h2>
+
+
+
+        <a href="Descrição dos jogos1.html"><img
+                src="https://upload.wikimedia.org/wikipedia/en/thumb/b/b2/Attack_on_Titan_decalless_cover_art.jpg/220px-Attack_on_Titan_decalless_cover_art.jpg"
+                alt="Attack on Titan"></a>
+
+        <a href="Descrição dos jogos2.html"><img
+                src="https://upload.wikimedia.org/wikipedia/en/thumb/5/55/SoulResureccion.jpg/220px-SoulResureccion.jpg"
+                alt="Bleach"></a>
+
+        <a href="Descrição dos jogos3.html"><img
+                src="https://upload.wikimedia.org/wikipedia/pt/thumb/b/be/Guitar_Hero_3_capa.png/270px-Guitar_Hero_3_capa.png"
+                alt="Guitar Hero 3"></a>
+
+        <a href="Descrição dos jogos4.html"><img
+                src="https://upload.wikimedia.org/wikipedia/pt/thumb/8/8c/DBZ_BT3.jpg/270px-DBZ_BT3.jpg"
+                alt="DBZ_BT3"></a>
+
+        <a href="Descrição dos jogos5.html"><img
+                src="https://upload.wikimedia.org/wikipedia/en/thumb/b/be/OkamiNTSCcoverFinal.jpg/220px-OkamiNTSCcoverFinal.jpg"
+                alt="Okami"></a>
+
+        <a href="Descrição dos jogos6.html"><img
+                src="https://upload.wikimedia.org/wikipedia/pt/thumb/9/96/Xenoblade_Chronicles_capa.png/270px-Xenoblade_Chronicles_capa.png"
+                alt="Xenoblade Chronicles"></a>
+    </div>
+
+</body>
+
 </html>

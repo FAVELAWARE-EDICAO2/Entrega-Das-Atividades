@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.galeria{
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    margin: 0px 10px;
+}
+
+img:first-child {
+    width: 300px;
+    border: 3px solid red;
+}
+
+img:nth-child(2){
+    box-shadow: 0px 0px 10px 10px #000;
+}
+
+img:nth-child(3){
+    transform: rotate(180deg);
+}
+
+img:hover {
+    transform: scale(1.05); 
+}

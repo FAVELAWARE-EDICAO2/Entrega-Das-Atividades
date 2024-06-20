@@ -1,0 +1,30 @@
+body{
+    text-align: center;
+font-family: 'Inter', sans-serif;
+font-size: 1.125rem;
+height: 100vh;
+display: -moz-grid;
+color: rgb(17, 16, 16);
+background-color: black;
+}
+#container{
+display: -webkit-flex;
+display: -moz-flex;
+display: -ms-flex;
+display: flex;
+width: 40%;
+max-width:500px;
+align-items: center;
+gap: 2rem;
+}
+p {
+    background-color: #fff; /* Cor de fundo do parágrafo */
+    padding: 10px; /* Espaçamento interno do parágrafo */
+    border-radius: 5px; /* Borda arredondada */
+}
+
+#h1 {
+color: white;
+text-align: center;
+
+}

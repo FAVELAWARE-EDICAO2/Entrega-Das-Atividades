@@ -13,7 +13,8 @@ function avaliarPessoa (altura,beleza,carisma){
         else  {
     console.log("Misericordia...");}
         }
-//-----------------------------------------------------------------------------
+//-----------------------------------------------------------------------------,
+
   //1
    function isPrime(num) {
     for(let i = 2; i < num; i++)

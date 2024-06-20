@@ -1,0 +1,223 @@
+html{
+  scroll-behavior: smooth;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  margin: 0;
+}
+p{
+  font-size: larger;
+}
+
+
+.container-header {
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3rem;
+  width: 100vw;
+  font-family: "Viaoda Libre", serif;
+  position: relative;
+}
+.container-header .titulo a {
+  color: white;
+  font-size: 35px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+.titulo{
+ font-family: "Viaoda Libre", serif;
+ font-size: 30px;
+}
+
+.container-header .titulo a span {
+  color: #00ced1;
+  transition: all 0.3s ease;
+}
+
+.line {
+  border-bottom: 0.1rem solid white;
+  width: 100vw;
+}
+#posicao{
+  position: fixed;
+  z-index: 3;
+  top: 0;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-size:auto;
+}
+
+.navBar {
+  background-color: #000;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+}
+.navBar ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  padding: 0.8rem;
+}
+
+.navBar li a {
+  padding: 0.3rem;
+  color: #a7b1bd;
+  cursor: pointer;
+  text-decoration: none;
+  position: relative;
+  transition: 0.5s all ease-in-out;
+}
+
+.navBar li a:hover {
+  color: #149bff;
+  transition: 0.5s all ease-in-out;
+}
+
+.navBar a::after {
+  content: " ";
+  width: 0%;
+  height: 0.6vh;
+  background-color: #ffffff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: 0.5s ease-in-out;
+}
+
+.navBar a:hover::after {
+  width: 100%;
+  border-radius: 25px;
+}
+
+#apresentacao {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.background-image p{
+  text-align: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 105%;
+  height: 101%;
+  background-image: url(./img/pexels-nickoloui-1319460.jpg);
+  background-size: cover;
+  background-position: center;
+  filter: blur(8px);
+  margin-bottom: 0;
+  z-index: 0;
+}
+.content {
+  padding-left: 20px;
+  z-index: 1;
+  flex-wrap: wrap;
+  max-width: 50%;
+}
+P{
+  margin-bottom: 0;
+}
+
+h1 {
+  color: rgba(20, 13, 13, 0.836);
+  font-family: "Viaoda Libre", serif;
+}
+
+#sobre {
+  background-color:black;
+  width: 100vw;
+  color: gray;
+  text-align: center;
+  z-index: 1;
+}
+
+#sobre h1{
+  color: white;
+  font-size: 30px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  font-family: "Viaoda Libre", serif;
+}
+
+#catalogo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  flex-direction: column;
+
+  background-color: #2c2c2c;
+  width: 100vw;
+}
+
+#catalogo h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.cortes ul {
+  display: flex;
+}
+
+.cortes img {
+  width: 250px;
+  height: 250px;
+
+  margin: 1rem;
+}
+
+.trancas ul {
+  display: flex;
+}
+
+.trancas img {
+  width: 250px;
+  height: 250px;
+  margin: 1rem;
+}
+
+#localizacao {
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+#localizacao h1{
+color: white;
+font-size: 30px;
+}
+footer {
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+footer h1 {
+  color: white;
+  font-size: 30px;
+  
+}

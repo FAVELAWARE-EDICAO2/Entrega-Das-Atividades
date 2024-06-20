@@ -1,0 +1,84 @@
+<!-- 3) Você foi contratado para estilizar um cardápio digital para um restaurante. 
+Use seletores de classe para estilizar todos os itens do cardápio. Dê a eles uma borda e um padding.
+Utilize o seletor de classe .especial para destacar os itens especiais com uma cor de fundo diferente.
+Aplique uma pseudo-classe :hover para mudar a cor do texto quando o mouse passa sobre os itens do menu.
+
+Considere o seguinte trecho HTML:
+
+<div class="menu">
+    <h1>Cardápio do Dia</h1>
+    <ul>
+        <li class="item">Pizza Margherita</li>
+        <li class="item especial">Pizza de Pepperoni</li>
+        <li class="item">Lasanha à Bolonhesa</li>
+        <li class="item especial">Lasanha Vegetariana</li>
+    </ul>
+</div>
+
+-->
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardápio Digital</title>
+    <style>
+        body {
+            font-size: x-large;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 30px auto;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .Cardapio .item {
+            border: 1px solid #ccc;
+            /* Adiciona uma borda */
+            padding: 10px;
+            /* Adiciona espaço interno */
+            text-align: center;
+            /* Alinhar o texto no centro */
+        }
+
+        /* Estilizando itens especiais */
+        .especial {
+            background-color: gold;
+            /* Cor de fundo diferente */
+        }
+
+        /* Mudança de cor de texto ao passar o mouse */
+        .Cardapio .item:hover {
+            background-color: aqua;
+            /*Cor de fundo */
+            color: azure;
+            /*  Nova cor de texto */
+            border: 1px solid #000000;
+            /* Adiciona uma borda */
+        }
+.Cardapio .item:active{
+color: rgb(255, 153, 0);
+}
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Cardápio Digital</h1>
+        <div class="Cardapio">
+            <div class=item>Hamburguer - R$ 20.00</div>
+            <div class=item>Pizza - R$ 18.00</div>
+            <div class=item>Salada - R$ 22.00</div>
+            <div class=item>Sobremesa - R$ 25.00</div>
+            <div class="item especial">Prato especial da casa - R$ 30.00</div>
+        </div>
+
+
+</body>
+
+</html>

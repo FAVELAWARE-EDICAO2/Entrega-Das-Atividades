@@ -1,3 +1,11 @@
-div p{
-    color:aqua;
+*{
+    background-color: brown;
+}
+
+ul{
+    color: coral;
+}
+
+a{
+    color: darkorange;
 }
