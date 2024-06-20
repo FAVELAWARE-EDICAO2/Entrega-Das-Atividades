@@ -5,7 +5,7 @@ console.log("# (3) Sair              #");
 console.log("#########################");
 
 
-do {var opcao = 1;
+do {var opcao = 2;
     if (opcao == 3) {
         console.log("Olá");
     } else if (opcao == 2) {
@@ -14,7 +14,7 @@ do {var opcao = 1;
     } else if (opcao == 3) {
         console.log("Sair");
     } else {
-        console.log("Digite um dos números válidos");
+        console.log(return);
     }
 
 } while (opcao !==3);

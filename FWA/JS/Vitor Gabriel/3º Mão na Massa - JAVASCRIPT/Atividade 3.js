@@ -4,8 +4,8 @@
 
  */
 
-let lista_numeros = [];
-var sum  = lista_numeros.reduce(function(accumulator,value){
+let lista_numeros = [2,3,10];
+var soma  = lista_numeros.reduce(function(accumulator,value){
   return accumulator + value
   },0);
-console.log(sum)
+console.log(soma)

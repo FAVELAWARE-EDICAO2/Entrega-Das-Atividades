@@ -6,35 +6,32 @@
 ✔ Encontre o índice do número 9 no array.
 ✔ Ordene o array em ordem decrescente.
 ✔ Inverta a ordem dos elementos no array.
-Filtre os números do array para obter apenas aqueles maiores que 7.
+✔ Filtre os números do array para obter apenas aqueles maiores que 7.
 ✔ Some todos os elementos do array.
 ✔ Imprima o array final e a soma dos elementos.
  */
 
-let numeros = [3,5,7,9,11];
-numeros.push ();
-numeros.shift ();
+let numeros = [3, 5, 7, 9, 11];
+numeros.push(13);
+numeros.shift();
 
-
-for (let i = 0; i <= numeros.length; i++){
-    if (numeros[i] >7){
-        console.log(i)
+for (let i = 0; i <= numeros.length; i++) {
+    if (numeros[i] == 9) {
+        console.log(i, "                  (Índice do número 9 no array)")
     }
 }
 
-for (let i=0;  i <= numeros.length; i++){
-    if (numeros[i] ==9){
-        console.log(i)
-    }
-    }
+numeros.sort((a, b) => b - a);
+console.log(numeros, "(Order decresente)");
+numeros.sort((a, b) => a - b);
+console.log(numeros, "(Order cresente)");
 
-numeros.sort((a,b) => b - a); // order decresente
-console.log(numeros);
-numeros.sort((a,b) => a - b); // order cresente
-console.log(numeros);
-
-var sum=  numeros.reduce((accumulator,value) => accumulator + value,0);
-console.log(sum);
+const MaiorQue7 = numeros.filter(function (numeros) {
+    return numeros >= 7;
+})
+console.log(MaiorQue7, "   (maiores que 7)");
+var soma = MaiorQue7.reduce((accumulator, value) => accumulator + value, 0);
+console.log(soma, "                 (Soma de todos os elementos)")
 
 
 
