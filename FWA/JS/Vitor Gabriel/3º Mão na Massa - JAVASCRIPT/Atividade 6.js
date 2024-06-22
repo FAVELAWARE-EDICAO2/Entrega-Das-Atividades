@@ -7,5 +7,6 @@ Mostre o array resultante após essas operações.
 
 */
 let numerosInteiros = [1,2,3,6,12,16,20,21],
+
 let (numerosPar => numerosInteiros % 2);
 console.log(numerosPar)
