@@ -21,7 +21,7 @@ function avaliarPessoa(altura, beleza, carisma) {
     }
 
     else if (altura > 7 || beleza > 7 || carisma > 7) {
-        console.log("Fe em Deus...");
+        console.log("Fé em Deus...");
     }
 
     else {
