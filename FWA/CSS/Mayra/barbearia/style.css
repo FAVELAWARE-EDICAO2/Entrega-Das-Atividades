@@ -1,0 +1,82 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: #0d95ca;
+    color: #fff;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    color: #000000;
+    text-decoration: none;
+}
+
+#banner {
+    background: url('banner.jpg') center/cover;
+    color: #000000;
+    text-align: center;
+    padding: 2rem;
+}
+
+.btn {
+    display: inline-block;
+    background: #3675eb;
+    color: #000102;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    margin-top: 1rem;
+}
+
+section {
+    padding: 2rem;
+}
+
+#servicos ul {
+    list-style: none;
+}
+
+.member {
+    text-align: center;
+}
+
+.member img {
+    width: 200px;
+    border-radius: 50%;
+}
+
+footer {
+    background: #158ddd;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+img{
+    width: 400px;
+    max-width: 100px;
+    max-height: 100px;
+}
+
+img:first-child{
+    width: 200px;
+}

@@ -1,4 +1,4 @@
-let mes = parseInt(prompt("Digite um número de um mês"))
+    let mes = parseInt(prompt("Digite um número de um mês"))
 let meseEstacao
 switch (mes){
     case 1:
