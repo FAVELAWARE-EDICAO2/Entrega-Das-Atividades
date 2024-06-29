@@ -13,3 +13,5 @@ adicionarLivro(livro): adiciona um novo livro à biblioteca.
 removerLivro(titulo): remove um livro pelo título.
 listarLivros(): lista todos os livros na biblioteca.
 */
+
+let Biblioteca = []

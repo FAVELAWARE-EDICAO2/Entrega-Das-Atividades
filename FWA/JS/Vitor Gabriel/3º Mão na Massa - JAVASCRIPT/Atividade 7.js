@@ -6,15 +6,17 @@ Ordene as strings em ordem alfabética.
 Mostre o array resultante após essas operações.
  */
 
-let strings = ["banana","maça", "laranja", "uva", "pera"];
-console.log(strings[0].length)
+let palavras = ["banana", "maça", "laranja", "uva", "pera"];
 
-for(let i = 0; i < String.length;i++ ){
-    if(strings[i].length < 5){
-        strings.slice(i, 1);
+console.log("Palavras com 5 caracteres ou mais:")
+for (let i = 0; i < palavras.length; i++) {
+    if (palavras[i].length < 5) {
+        palavras.splice(i, 1);
         i--;
     }
 }
-for (let i =0; i < 10; strings.length; i++ ){
-    console.log(strings[i]);
-} 
+palavras.sort();
+for (let i = 0; i < palavras.length; i++) {
+
+    console.log(palavras[i]);
+}
