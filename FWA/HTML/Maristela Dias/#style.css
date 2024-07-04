@@ -1,0 +1,37 @@
+ .grid-container{
+  display: grid;
+  grid-template-columns: 2fr 1fr auto;  
+ }
+
+ .grid-item{
+    background-color: brown;
+    border: solid 2px #110a0a;
+    font-size: 30px;
+ }
+
+ .flex-container {
+     display: flex;
+     flex-direction: row;
+     background-color: aqua;
+ 
+ }
+ 
+ .flex-container > div {
+    background-color: blueviolet;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+ }
+
+ @media screen and (max-width: 480px){
+    body{
+       background-color: beige;
+    }
+    .flex-container {
+     flex-direction: column;   
+    }
+ }
+ 
+
+
+

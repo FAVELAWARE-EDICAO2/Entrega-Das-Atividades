@@ -1,0 +1,193 @@
+<!-- Página para entretenimento.-->
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jogos que eu gosto</title>
+    <style>
+      /* Estilos para o corpo da página */
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        background-color: #000;
+        color: #fff;
+      }
+
+      /* Estilos para o contêiner das imagens */
+      .gallery {
+        display: flex;
+        /* Utiliza flexbox para dispor as imagens em linha */
+        justify-content: center;
+        /* Centraliza as imagens horizontalmente */
+        align-items: center;
+        /* Centraliza as imagens verticalmente */
+        flex-wrap: wrap;
+        /* Permite que as imagens quebrem para a próxima linha quando não couberem mais na tela */
+        padding: 20px;
+        /* Adiciona um espaçamento interno */
+      }
+
+      /* Estilos para cada imagem */
+      .gallery img {
+        height: 330px;
+        width: 220px;
+        margin: 10px;
+        /* Adiciona um espaçamento entre as imagens */
+        border: 4px solid transparent;
+        transition: border-color 0.3s ease;
+        /* Adiciona transição suave para o contorno */
+      }
+
+      /* Efeito de contorno ao passar o mouse sobre a imagem */
+      .gallery img:hover {
+        border-color: #ffe600;
+        height: 340px;
+        width: 230px;
+        animation: brilho 4s infinite;
+        animation: brilho 1s infinite alternate;
+      }
+
+      /* Estilos para o vídeo de fundo */
+      #video-background {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: -1;
+      }
+
+      /* Estilos para o conteúdo */
+      #content {
+        position: relative;
+        z-index: 1;
+        text-align: center;
+      }
+
+      /* Estilos para o título */
+      h2 {
+        font-size: 1.2em;
+        margin-top: 20px;
+      }
+
+      /*brilho das imagens */
+      @keyframes brilho {
+        0% {
+          filter: brightness(150%);
+        }
+
+        100% {
+          filter: brightness(100%);
+        }
+        /* Estilos para o contêiner das imagens */
+        .gallery {
+            display: flex;
+            /* Utiliza flexbox para dispor as imagens em linha */
+            justify-content: center;
+            /* Centraliza as imagens horizontalmente */
+            align-items: center;
+            /* Centraliza as imagens verticalmente */
+            flex-wrap: wrap;
+            /* Permite que as imagens quebrem para a próxima linha quando não couberem mais na tela */
+            padding: 20px;
+            /* Adiciona um espaçamento interno */
+        }
+
+        /* Estilos para cada imagem */
+        .gallery img {
+            height: 330px;
+            width: 220px;
+            margin: 10px;
+            /* Adiciona um espaçamento entre as imagens */
+            border: 4px solid transparent;
+            transition: border-color 0.3s ease;
+            /* Adiciona transição suave para o contorno */
+        }
+
+        /* Efeito de contorno ao passar o mouse sobre a imagem */
+        .gallery img:hover {
+            border-color: #ffe600;
+            height: 340px;
+            width: 230px;
+          
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <video id="video-background" autoplay muted loop>
+      <source src="videoplayback.mp4" type="video/mp4" />
+      Seu navegador não suporta vídeos em HTML5.
+    </video>
+
+    <audio id="audio" src="12.mp3"></audio>
+
+    <div id="content">
+      <h2>Jogos que recomendo</h2>
+
+      <div class="gallery">
+        <!-- Imagem 1 com link -->
+        <a href="Descrição dos jogos1.html"
+          ><img
+            src="https://upload.wikimedia.org/wikipedia/en/thumb/b/b2/Attack_on_Titan_decalless_cover_art.jpg/220px-Attack_on_Titan_decalless_cover_art.jpg"
+            alt="Attack on Titan"
+        /></a>
+
+        <!-- Imagem 2 com link -->
+        <a href="Descrição dos jogos2.html"
+          ><img
+            src="https://upload.wikimedia.org/wikipedia/en/thumb/5/55/SoulResureccion.jpg/220px-SoulResureccion.jpg"
+            alt="Bleach"
+        /></a>
+
+        <!-- Imagem 3 com link -->
+        <a href="Descrição dos jogos3.html"
+          ><img
+            src="https://upload.wikimedia.org/wikipedia/pt/thumb/b/be/Guitar_Hero_3_capa.png/270px-Guitar_Hero_3_capa.png"
+            alt="Guitar Hero 3"
+        /></a>
+
+        <!-- Imagem 4 com link -->
+        <a href="Descrição dos jogos4.html"
+          ><img
+            src="https://upload.wikimedia.org/wikipedia/pt/thumb/8/8c/DBZ_BT3.jpg/270px-DBZ_BT3.jpg"
+            alt="DBZ_BT3"
+        /></a>
+
+        <!-- Imagem 5 com link -->
+        <a href="Descrição dos jogos5.html"
+          ><img
+            src="https://upload.wikimedia.org/wikipedia/en/thumb/b/be/OkamiNTSCcoverFinal.jpg/220px-OkamiNTSCcoverFinal.jpg"
+            alt="Okami"
+        /></a>
+
+        <!-- Imagem 6 com link -->
+        <a href="Descrição dos jogos6.html"
+          ><img
+            src="https://upload.wikimedia.org/wikipedia/pt/thumb/9/96/Xenoblade_Chronicles_capa.png/270px-Xenoblade_Chronicles_capa.png"
+            alt="Xenoblade Chronicles"
+        /></a>
+      </div>
+    </div>
+
+    <script>
+      var images = document.querySelectorAll(".gallery img");
+
+      // Adiciona event listener para cada imagem
+      images.forEach(function (img) {
+        img.addEventListener("mouseover", playAudio);
+      });
+
+      function playAudio() {
+        var audio = document.getElementById("audio");
+        audio.play();
+      }
+    </script>
+  </body>
+</html>

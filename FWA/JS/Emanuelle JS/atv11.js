@@ -1,0 +1,1 @@
+mensagem = "olá! sou emanuelle.como posso ajudar você hoje?"

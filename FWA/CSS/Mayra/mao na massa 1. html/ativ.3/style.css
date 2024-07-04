@@ -1,0 +1,20 @@
+.menu {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .menu h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .item {
+      border: 1px solid #ccc;
+      padding: 10px;
+      transition: color 0.3s ease;
+  }
+  .item.especial {
+    background-color: rgb(153, 206, 8);
+  }
+  .item:hover {
+    color: rgb(26, 214, 98);
+  }
+  

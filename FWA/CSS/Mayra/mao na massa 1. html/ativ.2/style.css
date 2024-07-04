@@ -1,0 +1,9 @@
+.lista a {
+    color: rgb(38, 0, 255);
+    text-decoration: none;
+  }
+  
+  .lista a:hover {
+    text-decoration: underline;
+  }
+    

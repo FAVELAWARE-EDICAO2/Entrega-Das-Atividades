@@ -1,0 +1,10 @@
+*{
+   background-color: rgb(56, 97, 97);
+   color: azure;
+}
+conteine{
+    display:none;
+    padding: 100;
+    border-color: rgb(7, 41, 30);
+    color: rgb(36, 82, 83);
+}

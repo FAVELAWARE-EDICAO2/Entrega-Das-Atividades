@@ -1,0 +1,51 @@
+<!-- 5) Estilizar um formulário de inscrição para uma newsletter, usando seletores de atributo para os campos do formulário e pseudo-classes para interação do usuário.
+Use seletores de atributo para estilizar o campo de entrada de email com uma borda e padding.
+Aplique estilos ao botão de submit para que ele se destaque.
+Utilize a pseudo-classe :focus para mudar a borda do campo de entrada quando ele estiver ativo (quando o usuário clicar para digitar).
+Considere o seguinte trecho HTML:
+
+<form class="newsletter">
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email">
+    <button type="submit">Inscrever-se</button>
+</form>
+
+-->
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscrição do Jornal</title>
+    <style>
+        input[type="email"] {
+            border: 1px solid #ccc;
+            padding: 8px;
+        }
+
+        button[type="submit"] {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+
+        input[type="email"]:focus {
+            border-color: #007bff;
+            outline: none;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Inscreva-se no nosso Jornal</h1>
+    <form action="#" method="POST">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Digite seu email" required>
+        <button type="submit">Inscrever</button>
+    </form>
+</body>
+
+</html>

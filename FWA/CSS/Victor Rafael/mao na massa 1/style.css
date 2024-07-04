@@ -1,0 +1,11 @@
+body{
+    background-color: #000000;
+}
+h1 ,p {
+    color: #00f7ff;
+    text-align: center;
+}
+.text{
+    text-align: center;
+    color: #d43939;
+}
