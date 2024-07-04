@@ -39,7 +39,7 @@ const tarefa2 = new Tarefa('Ir embora');
 gerenciador.adicionarTarefa(tarefa1);
 gerenciador.adicionarTarefa(tarefa2);
 
-console.log(gerenciador.listarTarefas(true));
+console.log(gerenciador.listarTarefas());
 
 gerenciador.marcarComoConcluida('Mentir sobre usar chatgpt');
 console.log(gerenciador.listarTarefas());
