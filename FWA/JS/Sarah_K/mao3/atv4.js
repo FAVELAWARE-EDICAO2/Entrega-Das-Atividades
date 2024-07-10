@@ -18,8 +18,9 @@ console.log(ordem2);
 let maiorq7 = num.filter(num => num >7);  //sem 7 aquis
 console.log(maiorq7);
 
-let i = 0;
-while(i < MutationObserver.length){
-num.slice(i,1);
+let sum = 0;
+for (let i = 0; i < num.length; i++) {
+    sum += num[i];
 }
-console.log(num);
+
+console.log(sum);

@@ -1,7 +1,17 @@
-/* Escreva um programa que peça ao usuário para inserir
-   números positivos. O programa deve somar esses números e
-   continuar solicitando novos números até que o usuário
-   insira um número negativo. Quando um número negativo for
-   inserido, o programa deve exibir a soma total dos números
-   positivos inseridos.
- */
+/* 
+Crie um sistema de biblioteca que permita adicionar, remover e listar livros. Cada livro deve ter um título, autor e ano de publicação.
+
+Crie uma classe Livro com os seguintes atributos:
+
+titulo
+autor
+anoPublicacao
+
+Crie uma classe Biblioteca que contenha um array de livros e os seguintes métodos:
+
+adicionarLivro(livro): adiciona um novo livro à biblioteca.
+removerLivro(titulo): remove um livro pelo título.
+listarLivros(): lista todos os livros na biblioteca.
+*/
+
+let Biblioteca = []
