@@ -6,4 +6,19 @@
 // Ordene os números resultantes em ordem decrescente.
 // Mostre o array resultante após essas operações.
 
-let numbers= [1,2,6,9,7]
+let numbers = [1, 2, 6, 9, 7];
+let numImpares = []
+for (let i = 0; i < numbers.length; i++) {
+  if (numbers[i] % 2 == 0) { 
+  }
+else{
+    numImpares.push(numbers[i])
+
+}
+}
+console.log(numImpares)
+for(y = 0;y < numImpares.length; y++){
+    let multi = 2 * numImpares[y];
+       console.log(multi)
+}
+
