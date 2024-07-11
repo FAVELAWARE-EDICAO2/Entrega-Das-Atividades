@@ -54,7 +54,7 @@
 
   class Biblioteca
 
-    Argumento
+     Argumento
       titulo (str)
     
     forlivros
