@@ -4,3 +4,9 @@
 // Converta todas as strings restantes para letras maiúsculas.
 // Ordene as strings em ordem alfabética.
 // Mostre o array resultante após essas operações.
+
+let palavras = ["trufula", "cora", "temperamental", "suco"] 
+let = []
+for(){
+//     usar toupercase, olhar a maneira como ordenar
+}
